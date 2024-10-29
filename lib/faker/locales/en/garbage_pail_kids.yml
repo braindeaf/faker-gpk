@@ -2,86 +2,176 @@ en:
   faker:
     garbage_pail_kids:
       names:
-        # OS1
-        - Nasty NICK
-        - Evil EDDIE
-        - Junkfood JOHN
-        - RAY Decay
-        - Up CHUCK
-        - Heavin' STEVEN
-        - Fryin' BRIAN
-        - Electric BILL
-        - Dead TED
-        - JAY Decay
-        - ART Apart
-        - Busted BOB
-        - Stormy HEATHER
-        - APRIL Showers
-        - ADAM Bomb
-        - Blasted BILLY
-        - Boozin' BRUCE
-        - Drunk KEN
-        - Tee-Vee STEVIE
-        - Geeky GARY
-        - Itchy RICHIE
-        - Bugged BERT
-        - Furry FRAN
-        - Hairy MARY
-        - Ashcan ANDY
-        - Spacey STACY
-        - Potty SCOTTY
-        - JASON Basin
-        - Ailin' AL
-        - Mauled PAUL
-        - Weird WENDY
-        - Haggy MAGGIE
-        - Wacky JACKIE
-        - Loony LENNY
-        - Cranky FRANKIE
-        - Bad BRAD
-        - Corroded CARL
-        - Crater CHRIS
-        - Swell MEL
-        - Dressy JESSE
-        - Virus IRIS
-        - Sicky VICKY
-        - Junky JEFF
-        - Stinky STAN
-        - Drippy DAN
-        - Leaky LOU
-        - Nervous REX
-        - Nerdy NORM
-        - Creepy CAROL
-        - Scary CARRIE
-        - Slobby ROBBIE
-        - Fat MATT
-        - Brainy JANIE
-        - JENNY Genius
-        - Oozy SUZIE
-        - Meltin' MELISSA
-        - Bony JOANIE
-        - Thin LYNN
-        - New Wave DAVE
-        - Graffiti PETEY
-        - Run Down RHODA
-        - Flat PAT
-        - Frigid BRIDGET
-        - Chilly MILLIE
-        - Mad MIKE
-        - Savage STUART
-        - KIM Kong
-        - ANNA Banana
-        - Wrinkly RANDY
-        - Rockin' ROBERT
-        - Wrappin' RUTH
-        - TOMMY Tomb
-        - GuilloTINA
-        - CINDY Lopper
-        - Slimy SAM
-        - Lizard LIZ
-        - Buggy BETTY
-        - Green JEAN
-        - Unstitched MITCH
-        - Damaged DON
-        - Mean GENE
-        - Joltin' JOE
+        #
+        # Original Series 1 (1985)
+        #
+        - Nasty NICK          # 1a
+        - Evil EDDIE          # 1b
+        - Junkfood JOHN       # 2a
+        - RAY Decay           # 2b
+        - Up CHUCK            # 3a
+        - Heavin' STEVEN      # 3b
+        - Fryin' BRIAN        # 4a
+        - Electric BILL       # 4b
+        - Dead TED            # 5a
+        - JAY Decay           # 5b
+        - ART Apart           # 6a
+        - Busted BOB          # 6b
+        - Stormy HEATHER      # 7a
+        - APRIL Showers       # 7b
+        - ADAM Bomb           # 8a
+        - Blasted BILLY       # 8b
+        - Boozin' BRUCE       # 9a
+        - Drunk KEN           # 9b
+        - Tee-Vee STEVIE      # 10a
+        - Geeky GARY          # 10b
+        - Itchy RICHIE        # 11a
+        - Bugged BERT         # 11b
+        - Furry FRAN          # 12a
+        - Hairy MARY          # 12b
+        - Ashcan ANDY         # 13a
+        - Spacey STACY        # 13b
+        - Potty SCOTTY        # 14a
+        - JASON Basin         # 14b
+        - Ailin' AL           # 15a
+        - Mauled PAUL         # 15b
+        - Weird WENDY         # 16a
+        - Haggy MAGGIE        # 16b
+        - Wacky JACKIE        # 17a
+        - Loony LENNY         # 17b
+        - Cranky FRANKIE      # 18a
+        - Bad BRAD            # 18b
+        - Corroded CARL       # 19a
+        - Crater CHRIS        # 19b
+        - Swell MEL           # 20a
+        - Dressy JESSE        # 20b
+        - Virus IRIS          # 21a
+        - Sicky VICKY         # 21b
+        - Junky JEFF          # 22a
+        - Stinky STAN         # 22b
+        - Drippy DAN          # 23a
+        - Leaky LOU           # 23b
+        - Nervous REX         # 24a
+        - Nerdy NORM          # 24b
+        - Creepy CAROL        # 25a
+        - Scary CARRIE        # 25b
+        - Slobby ROBBIE       # 26a
+        - Fat MATT            # 26b
+        - Brainy JANIE        # 27a
+        - JENNY Genius        # 27b
+        - Oozy SUZIE          # 28a
+        - Meltin' MELISSA     # 28b
+        - Bony JOANIE         # 29a
+        - Thin LYNN           # 29b
+        - New Wave DAVE       # 30a
+        - Graffiti PETEY      # 30b
+        - Run Down RHODA      # 31a
+        - Flat PAT            # 31b
+        - Frigid BRIDGET      # 32a
+        - Chilly MILLIE       # 32b
+        - Mad MIKE            # 33a
+        - Savage STUART       # 33b
+        - KIM Kong            # 34a
+        - ANNA Banana         # 34b
+        - Wrinkly RANDY       # 35a
+        - Rockin' ROBERT      # 35b
+        - Wrappin' RUTH       # 36a
+        - TOMMY Tomb          # 36b
+        - GuilloTINA          # 37a
+        - CINDY Lopper        # 37b
+        - Slimy SAM           # 38a
+        - Lizard LIZ          # 38b
+        - Buggy BETTY         # 39a
+        - Green JEAN          # 39b
+        - Unstitched MITCH    # 40a
+        - Damaged DON         # 40b
+        - Mean GENE           # 41a
+        - Joltin' JOE         # 41b
+        #
+        # Original Series 2 (1985)
+        #
+        - PATTY Putty         # 42a
+        - Muggin' MEGAN       # 42b
+        - Smelly KELLY        # 43a
+        - DOUG Plug           # 43b
+        - SY Clops            # 44a
+        - One-Eyed JACK       # 44b
+        - Leaky LINDSAY       # 45a
+        - Messy TESSIE        # 45b
+        - Rappin' RON         # 46a
+        - RAY Gun             # 46b
+        - Disgustin' JUSTIN   # 47a
+        - Vile KYLE           # 47b
+        - Tongue Tied TIM     # 48a
+        - MARTY Mouthful      # 48b
+        - Double HEATHER      # 49a
+        - Schizo FRAN         # 49b
+        - FRAN FRAN           # 49b
+        - Mad DONNA           # 50a
+        - Nutty NICOLE        # 50b
+        - RUSSELL Muscle      # 51a
+        - BRETT Sweat         # 51b
+        - Dirty HARRY         # 52a
+        - ROB Slob            # 52b
+        - Jolted JOEL         # 53a
+        - Live MIKE           # 53b
+        - Fryin' RYAN         # 54a
+        - Charred CHAD        # 54b
+        - Hairy GARY          # 55a
+        - Brutal BRAD         # 55b
+        - Hairy CARRIE        # 56a
+        - Brutal BRIDGET      # 56b
+        - TOMMY Gun           # 57a
+        - Dead FRED           # 57b
+        - Cracked JACK        # 58a
+        - Soft Boiled SAM     # 58b
+        - Clogged DUANE       # 59a
+        - Bye Bye BOBBY       # 59b
+        - Prickly RICK        # 60a
+        - Cactus CAROL        # 60b
+        - Jolly ROGER         # 61a
+        - Pegleg PETER        # 61b
+        - Greaser GREG        # 62a
+        - CHRIS Hiss          # 62b
+        - Spacey STACY        # 63a
+        - JANET Planet        # 63b
+        - Hot SCOTT           # 64a
+        - LUKE Warm           # 64b
+        - Shrunken ED         # 65a
+        - Cheeky CHARLES      # 65b
+        - MATT Ratt           # 66a
+        - RACHEL Rodent       # 66b
+        - Phony LISA          # 67a
+        - MONA Loser          # 67b
+        - OLIVER Twisted      # 68a
+        - Dizzy DAVE          # 68b
+        - JENNY Jelly         # 69a
+        - SARA Slime          # 69b
+        - Bad Breath SETH     # 70a
+        - Foul PHIL           # 70b
+        - Odd TODD            # 71a
+        - Bent BEN            # 71b
+        - Mad MAX             # 72a
+        - Brainy BRIAN        # 72b
+        - Gorgeous GEORGE     # 73a
+        - Dollar BILL         # 73b
+        - MARK Bark           # 74a
+        - Kennel KENNY        # 74b
+        - Off-The-Wall PAUL   # 75a
+        - ZACH Plaque         # 75b
+        - BONNIE Bunny        # 76a
+        - Pourin' LAUREN      # 76b
+        - Ghastly ASHLEY      # 77a
+        - Acne AMY            # 77b
+        - Wrinkled RITA       # 78a
+        - Ancient ANNIE       # 78b
+        - Sewer SUE           # 79a
+        - MICHELLE Muck       # 79b
+        - Tattoo LOU          # 80a
+        - ART Gallery         # 80b
+        - Split KIT           # 81a
+        - Mixed-Up MITCH      # 81b
+        - Slain WAYNE         # 82a
+        - Ventilated VINNIE   # 82b
+        - Ugh LEE             # 83a
+        - Sumo SID            # 83b

@@ -14,7 +14,7 @@ module Faker
         #
         # @faker.version next
         def name
-          fetch('garbage_pail_kids.names')
+          fetch("garbage_pail_kids.names")
         end
       end
     end
