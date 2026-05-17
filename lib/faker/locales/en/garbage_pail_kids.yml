@@ -1,1470 +1,2770 @@
 en:
   faker:
     garbage_pail_kids:
-      names:
+      series:
         #
         # Original Series 1 (1985)
         #
-        - Nasty NICK              # 1a
-        - Evil EDDIE              # 1b
-        - Junkfood JOHN           # 2a
-        - RAY Decay               # 2b
-        - Up CHUCK                # 3a
-        - Heavin' STEVEN          # 3b
-        - Fryin' BRIAN            # 4a
-        - Electric BILL           # 4b
-        - Dead TED                # 5a
-        - JAY Decay               # 5b
-        - ART Apart               # 6a
-        - Busted BOB              # 6b
-        - Stormy HEATHER          # 7a
-        - APRIL Showers           # 7b
-        - ADAM Bomb               # 8a
-        - Blasted BILLY           # 8b
-        - Boozin' BRUCE           # 9a
-        - Drunk KEN               # 9b
-        - Tee-Vee STEVIE          # 10a
-        - Geeky GARY              # 10b
-        - Itchy RICHIE            # 11a
-        - Bugged BERT             # 11b
-        - Furry FRAN              # 12a
-        - Hairy MARY              # 12b
-        - Ashcan ANDY             # 13a
-        - Spacey STACY            # 13b
-        - Potty SCOTTY            # 14a
-        - JASON Basin             # 14b
-        - Ailin' AL               # 15a
-        - Mauled PAUL             # 15b
-        - Weird WENDY             # 16a
-        - Haggy MAGGIE            # 16b
-        - Wacky JACKIE            # 17a
-        - Loony LENNY             # 17b
-        - Cranky FRANKIE          # 18a
-        - Bad BRAD                # 18b
-        - Corroded CARL           # 19a
-        - Crater CHRIS            # 19b
-        - Swell MEL               # 20a
-        - Dressy JESSE            # 20b
-        - Virus IRIS              # 21a
-        - Sicky VICKY             # 21b
-        - Junky JEFF              # 22a
-        - Stinky STAN             # 22b
-        - Drippy DAN              # 23a
-        - Leaky LOU               # 23b
-        - Nervous REX             # 24a
-        - Nerdy NORM              # 24b
-        - Creepy CAROL            # 25a
-        - Scary CARRIE            # 25b
-        - Slobby ROBBIE           # 26a
-        - Fat MATT                # 26b
-        - Brainy JANIE            # 27a
-        - JENNY Genius            # 27b
-        - Oozy SUZIE              # 28a
-        - Meltin' MELISSA         # 28b
-        - Bony JOANIE             # 29a
-        - Thin LYNN               # 29b
-        - New Wave DAVE           # 30a
-        - Graffiti PETEY          # 30b
-        - Run Down RHODA          # 31a
-        - Flat PAT                # 31b
-        - Frigid BRIDGET          # 32a
-        - Chilly MILLIE           # 32b
-        - Mad MIKE                # 33a
-        - Savage STUART           # 33b
-        - KIM Kong                # 34a
-        - ANNA Banana             # 34b
-        - Wrinkly RANDY           # 35a
-        - Rockin' ROBERT          # 35b
-        - Wrappin' RUTH           # 36a
-        - TOMMY Tomb              # 36b
-        - GuilloTINA              # 37a
-        - CINDY Lopper            # 37b
-        - Slimy SAM               # 38a
-        - Lizard LIZ              # 38b
-        - Buggy BETTY             # 39a
-        - Green JEAN              # 39b
-        - Unstitched MITCH        # 40a
-        - Damaged DON             # 40b
-        - Mean GENE               # 41a
-        - Joltin' JOE             # 41b
+        - id: OS1
+          name: Original Series 1
+          year: 1985
+          cards:
+            - id: 1a
+              name: Nasty NICK
+            - id: 1b
+              name: Evil EDDIE
+            - id: 2a
+              name: Junkfood JOHN
+            - id: 2b
+              name: RAY Decay
+            - id: 3a
+              name: Up CHUCK
+            - id: 3b
+              name: Heavin' STEVEN
+            - id: 4a
+              name: Fryin' BRIAN
+            - id: 4b
+              name: Electric BILL
+            - id: 5a
+              name: Dead TED
+            - id: 5b
+              name: JAY Decay
+            - id: 6a
+              name: ART Apart
+            - id: 6b
+              name: Busted BOB
+            - id: 7a
+              name: Stormy HEATHER
+            - id: 7b
+              name: APRIL Showers
+            - id: 8a
+              name: ADAM Bomb
+            - id: 8b
+              name: Blasted BILLY
+            - id: 9a
+              name: Boozin' BRUCE
+            - id: 9b
+              name: Drunk KEN
+            - id: 10a
+              name: Tee-Vee STEVIE
+            - id: 10b
+              name: Geeky GARY
+            - id: 11a
+              name: Itchy RICHIE
+            - id: 11b
+              name: Bugged BERT
+            - id: 12a
+              name: Furry FRAN
+            - id: 12b
+              name: Hairy MARY
+            - id: 13a
+              name: Ashcan ANDY
+            - id: 13b
+              name: Spacey STACY
+            - id: 14a
+              name: Potty SCOTTY
+            - id: 14b
+              name: JASON Basin
+            - id: 15a
+              name: Ailin' AL
+            - id: 15b
+              name: Mauled PAUL
+            - id: 16a
+              name: Weird WENDY
+            - id: 16b
+              name: Haggy MAGGIE
+            - id: 17a
+              name: Wacky JACKIE
+            - id: 17b
+              name: Loony LENNY
+            - id: 18a
+              name: Cranky FRANKIE
+            - id: 18b
+              name: Bad BRAD
+            - id: 19a
+              name: Corroded CARL
+            - id: 19b
+              name: Crater CHRIS
+            - id: 20a
+              name: Swell MEL
+            - id: 20b
+              name: Dressy JESSE
+            - id: 21a
+              name: Virus IRIS
+            - id: 21b
+              name: Sicky VICKY
+            - id: 22a
+              name: Junky JEFF
+            - id: 22b
+              name: Stinky STAN
+            - id: 23a
+              name: Drippy DAN
+            - id: 23b
+              name: Leaky LOU
+            - id: 24a
+              name: Nervous REX
+            - id: 24b
+              name: Nerdy NORM
+            - id: 25a
+              name: Creepy CAROL
+            - id: 25b
+              name: Scary CARRIE
+            - id: 26a
+              name: Slobby ROBBIE
+            - id: 26b
+              name: Fat MATT
+            - id: 27a
+              name: Brainy JANIE
+            - id: 27b
+              name: JENNY Genius
+            - id: 28a
+              name: Oozy SUZIE
+            - id: 28b
+              name: Meltin' MELISSA
+            - id: 29a
+              name: Bony JOANIE
+            - id: 29b
+              name: Thin LYNN
+            - id: 30a
+              name: New Wave DAVE
+            - id: 30b
+              name: Graffiti PETEY
+            - id: 31a
+              name: Run Down RHODA
+            - id: 31b
+              name: Flat PAT
+            - id: 32a
+              name: Frigid BRIDGET
+            - id: 32b
+              name: Chilly MILLIE
+            - id: 33a
+              name: Mad MIKE
+            - id: 33b
+              name: Savage STUART
+            - id: 34a
+              name: KIM Kong
+            - id: 34b
+              name: ANNA Banana
+            - id: 35a
+              name: Wrinkly RANDY
+            - id: 35b
+              name: Rockin' ROBERT
+            - id: 36a
+              name: Wrappin' RUTH
+            - id: 36b
+              name: TOMMY Tomb
+            - id: 37a
+              name: GuilloTINA
+            - id: 37b
+              name: CINDY Lopper
+            - id: 38a
+              name: Slimy SAM
+            - id: 38b
+              name: Lizard LIZ
+            - id: 39a
+              name: Buggy BETTY
+            - id: 39b
+              name: Green JEAN
+            - id: 40a
+              name: Unstitched MITCH
+            - id: 40b
+              name: Damaged DON
+            - id: 41a
+              name: Mean GENE
+            - id: 41b
+              name: Joltin' JOE
         #
         # Original Series 2 (1985)
         #
-        - PATTY Putty             # 42a
-        - Muggin' MEGAN           # 42b
-        - Smelly KELLY            # 43a
-        - DOUG Plug               # 43b
-        - SY Clops                # 44a
-        - One-Eyed JACK           # 44b
-        - Leaky LINDSAY           # 45a
-        - Messy TESSIE            # 45b
-        - Rappin' RON             # 46a
-        - RAY Gun                 # 46b
-        - Disgustin' JUSTIN       # 47a
-        - Vile KYLE               # 47b
-        - Tongue Tied TIM         # 48a
-        - MARTY Mouthful          # 48b
-        - Double HEATHER          # 49a
-        - Schizo FRAN             # 49b
-        - FRAN FRAN               # 49b
-        - Mad DONNA               # 50a
-        - Nutty NICOLE            # 50b
-        - RUSSELL Muscle          # 51a
-        - BRETT Sweat             # 51b
-        - Dirty HARRY             # 52a
-        - ROB Slob                # 52b
-        - Jolted JOEL             # 53a
-        - Live MIKE               # 53b
-        - Fryin' RYAN             # 54a
-        - Charred CHAD            # 54b
-        - Hairy GARY              # 55a
-        - Brutal BRAD             # 55b
-        - Hairy CARRIE            # 56a
-        - Brutal BRIDGET          # 56b
-        - TOMMY Gun               # 57a
-        - Dead FRED               # 57b
-        - Cracked JACK            # 58a
-        - Soft Boiled SAM         # 58b
-        - Clogged DUANE           # 59a
-        - Bye Bye BOBBY           # 59b
-        - Prickly RICK            # 60a
-        - Cactus CAROL            # 60b
-        - Jolly ROGER             # 61a
-        - Pegleg PETER            # 61b
-        - Greaser GREG            # 62a
-        - CHRIS Hiss              # 62b
-        - Spacey STACY            # 63a
-        - JANET Planet            # 63b
-        - Hot SCOTT               # 64a
-        - LUKE Warm               # 64b
-        - Shrunken ED             # 65a
-        - Cheeky CHARLES          # 65b
-        - MATT Ratt               # 66a
-        - RACHEL Rodent           # 66b
-        - Phony LISA              # 67a
-        - MONA Loser              # 67b
-        - OLIVER Twisted          # 68a
-        - Dizzy DAVE              # 68b
-        - JENNY Jelly             # 69a
-        - SARA Slime              # 69b
-        - Bad Breath SETH         # 70a
-        - Foul PHIL               # 70b
-        - Odd TODD                # 71a
-        - Bent BEN                # 71b
-        - Mad MAX                 # 72a
-        - Brainy BRIAN            # 72b
-        - Gorgeous GEORGE         # 73a
-        - Dollar BILL             # 73b
-        - MARK Bark               # 74a
-        - Kennel KENNY            # 74b
-        - Off-The-Wall PAUL       # 75a
-        - ZACH Plaque             # 75b
-        - BONNIE Bunny            # 76a
-        - Pourin' LAUREN          # 76b
-        - Ghastly ASHLEY          # 77a
-        - Acne AMY                # 77b
-        - Wrinkled RITA           # 78a
-        - Ancient ANNIE           # 78b
-        - Sewer SUE               # 79a
-        - MICHELLE Muck           # 79b
-        - Tattoo LOU              # 80a
-        - ART Gallery             # 80b
-        - Split KIT               # 81a
-        - Mixed-Up MITCH          # 81b
-        - Slain WAYNE             # 82a
-        - Ventilated VINNIE       # 82b
-        - Ugh LEE                 # 83a
-        - Sumo SID                # 83b
+        - id: OS2
+          name: Original Series 2
+          year: 1985
+          cards:
+            - id: 42a
+              name: PATTY Putty
+            - id: 42b
+              name: Muggin' MEGAN
+            - id: 43a
+              name: Smelly KELLY
+            - id: 43b
+              name: DOUG Plug
+            - id: 44a
+              name: SY Clops
+            - id: 44b
+              name: One-Eyed JACK
+            - id: 45a
+              name: Leaky LINDSAY
+            - id: 45b
+              name: Messy TESSIE
+            - id: 46a
+              name: Rappin' RON
+            - id: 46b
+              name: RAY Gun
+            - id: 47a
+              name: Disgustin' JUSTIN
+            - id: 47b
+              name: Vile KYLE
+            - id: 48a
+              name: Tongue Tied TIM
+            - id: 48b
+              name: MARTY Mouthful
+            - id: 49a
+              name: Double HEATHER
+            - id: 49b
+              name: Schizo FRAN
+            - id: 49b
+              name: FRAN FRAN
+            - id: 50a
+              name: Mad DONNA
+            - id: 50b
+              name: Nutty NICOLE
+            - id: 51a
+              name: RUSSELL Muscle
+            - id: 51b
+              name: BRETT Sweat
+            - id: 52a
+              name: Dirty HARRY
+            - id: 52b
+              name: ROB Slob
+            - id: 53a
+              name: Jolted JOEL
+            - id: 53b
+              name: Live MIKE
+            - id: 54a
+              name: Fryin' RYAN
+            - id: 54b
+              name: Charred CHAD
+            - id: 55a
+              name: Hairy GARY
+            - id: 55b
+              name: Brutal BRAD
+            - id: 56a
+              name: Hairy CARRIE
+            - id: 56b
+              name: Brutal BRIDGET
+            - id: 57a
+              name: TOMMY Gun
+            - id: 57b
+              name: Dead FRED
+            - id: 58a
+              name: Cracked JACK
+            - id: 58b
+              name: Soft Boiled SAM
+            - id: 59a
+              name: Clogged DUANE
+            - id: 59b
+              name: Bye Bye BOBBY
+            - id: 60a
+              name: Prickly RICK
+            - id: 60b
+              name: Cactus CAROL
+            - id: 61a
+              name: Jolly ROGER
+            - id: 61b
+              name: Pegleg PETER
+            - id: 62a
+              name: Greaser GREG
+            - id: 62b
+              name: CHRIS Hiss
+            - id: 63a
+              name: Spacey STACY
+            - id: 63b
+              name: JANET Planet
+            - id: 64a
+              name: Hot SCOTT
+            - id: 64b
+              name: LUKE Warm
+            - id: 65a
+              name: Shrunken ED
+            - id: 65b
+              name: Cheeky CHARLES
+            - id: 66a
+              name: MATT Ratt
+            - id: 66b
+              name: RACHEL Rodent
+            - id: 67a
+              name: Phony LISA
+            - id: 67b
+              name: MONA Loser
+            - id: 68a
+              name: OLIVER Twisted
+            - id: 68b
+              name: Dizzy DAVE
+            - id: 69a
+              name: JENNY Jelly
+            - id: 69b
+              name: SARA Slime
+            - id: 70a
+              name: Bad Breath SETH
+            - id: 70b
+              name: Foul PHIL
+            - id: 71a
+              name: Odd TODD
+            - id: 71b
+              name: Bent BEN
+            - id: 72a
+              name: Mad MAX
+            - id: 72b
+              name: Brainy BRIAN
+            - id: 73a
+              name: Gorgeous GEORGE
+            - id: 73b
+              name: Dollar BILL
+            - id: 74a
+              name: MARK Bark
+            - id: 74b
+              name: Kennel KENNY
+            - id: 75a
+              name: Off-The-Wall PAUL
+            - id: 75b
+              name: ZACH Plaque
+            - id: 76a
+              name: BONNIE Bunny
+            - id: 76b
+              name: Pourin' LAUREN
+            - id: 77a
+              name: Ghastly ASHLEY
+            - id: 77b
+              name: Acne AMY
+            - id: 78a
+              name: Wrinkled RITA
+            - id: 78b
+              name: Ancient ANNIE
+            - id: 79a
+              name: Sewer SUE
+            - id: 79b
+              name: MICHELLE Muck
+            - id: 80a
+              name: Tattoo LOU
+            - id: 80b
+              name: ART Gallery
+            - id: 81a
+              name: Split KIT
+            - id: 81b
+              name: Mixed-Up MITCH
+            - id: 82a
+              name: Slain WAYNE
+            - id: 82b
+              name: Ventilated VINNIE
+            - id: 83a
+              name: Ugh LEE
+            - id: 83b
+              name: Sumo SID
         #
         # Original Series 3 (1986)
         #
-        - JOE Blow                # 84a
-        - ROD Wad                 # 84b
-        - Stuck CHUCK             # 85a
-        - Pinned LYNN             # 85b
-        - Horsey HENRY            # 86a
-        - Galloping GLEN          # 86b
-        - Hot Head HARVEY         # 87a
-        - ROY Bot                 # 87b
-        - DINAH Saur              # 88a
-        - FARAH Fossil            # 88b
-        - Hurt CURT               # 89a
-        - PAT Splat               # 89b
-        - Stoned SEAN             # 90a
-        - Thick VIC               # 90b
-        - BLAKE Flake             # 91a
-        - Hippie SKIPPY           # 91b
-        - MARVIN Gardens          # 92a
-        - Spittin' SPENCER        # 92b
-        - DREW Blood              # 93a
-        - Bustin' DUSTIN          # 93b
-        - Bruised LEE             # 94a
-        - Karate KATE             # 94b
-        - Grim JIM                # 95a
-        - BETH Death              # 95b
-        - Distorted DOT           # 96a
-        - Mirror IMOGENE          # 96b
-        - Punchy PERRY            # 97a
-        - Creamed KEITH           # 97b
-        - CHARLOTTE Web           # 98a
-        - DIDI T.                 # 98b
-        - Beaky BECKY             # 99a
-        - Picky MICKEY            # 99b
-        - ALI Gator               # 100a
-        - Marshy MARSHALL         # 100b
-        - Mushy MARSHA            # 101a
-        - Basking ROBIN           # 101b
-        - Mugged MARCUS           # 102a
-        - Kayo'd CODY             # 102b
-        - Wriggley RENE           # 103a
-        - Curly CARLA             # 103b
-        - Silent SANDY            # 104a
-        - Barren AARON            # 104b
-        - Juicy JESSICA           # 105a
-        - Green DEAN              # 105b
-        - Fowl RAOUL              # 106a
-        - MACK Quack              # 106b
-        - Totem PAULA             # 107a
-        - TATUM Pole              # 107b
-        - Smelly SALLY            # 108a
-        - Fishy PHYLLIS           # 108b
-        - Toady TERRY             # 109a
-        - CrOakin' COLIN          # 109b
-        - Snooty SAM              # 110a
-        - U.S. ARNIE              # 110b
-        - Target MARGARET         # 111a
-        - Bullseye BARRY          # 111b
-        - FRANK N. Stein          # 112a
-        - Undead JED              # 112b
-        - ALICE Island            # 113a
-        - Liberty LIBBY           # 113b
-        - Starin' DARREN          # 114a
-        - Peepin' TOM             # 114b
-        - Warmin' NORMAN          # 115a
-        - Well Done SHELDON       # 115b
-        - Eerie ERIC              # 116a
-        - Berserk KIRK            # 116b
-        - ROCKY N. Roll           # 117a
-        - LES Vegas               # 117b
-        - Half-NELSON             # 118a
-        - Glandular ANGELA        # 118b
-        - NED Head                # 119a
-        - Still JILL              # 119b
-        - Babbling BROOKE         # 120a
-        - Jelly KELLY             # 120b
-        - Apple CORY              # 121a
-        - DWIGHT Bite             # 121b
-        - Broad MAUD              # 122a
-        - Large MARGE             # 122b
-        - Glooey GABE             # 123a
-        - Sticky RICK             # 123b
-        - HUGH Mungous            # 124a
-        - King-Size KEVIN         # 124b
+        - id: OS3
+          name: Original Series 3
+          year: 1986
+          cards:
+            - id: 84a
+              name: JOE Blow
+            - id: 84b
+              name: ROD Wad
+            - id: 85a
+              name: Stuck CHUCK
+            - id: 85b
+              name: Pinned LYNN
+            - id: 86a
+              name: Horsey HENRY
+            - id: 86b
+              name: Galloping GLEN
+            - id: 87a
+              name: Hot Head HARVEY
+            - id: 87b
+              name: ROY Bot
+            - id: 88a
+              name: DINAH Saur
+            - id: 88b
+              name: FARAH Fossil
+            - id: 89a
+              name: Hurt CURT
+            - id: 89b
+              name: PAT Splat
+            - id: 90a
+              name: Stoned SEAN
+            - id: 90b
+              name: Thick VIC
+            - id: 91a
+              name: BLAKE Flake
+            - id: 91b
+              name: Hippie SKIPPY
+            - id: 92a
+              name: MARVIN Gardens
+            - id: 92b
+              name: Spittin' SPENCER
+            - id: 93a
+              name: DREW Blood
+            - id: 93b
+              name: Bustin' DUSTIN
+            - id: 94a
+              name: Bruised LEE
+            - id: 94b
+              name: Karate KATE
+            - id: 95a
+              name: Grim JIM
+            - id: 95b
+              name: BETH Death
+            - id: 96a
+              name: Distorted DOT
+            - id: 96b
+              name: Mirror IMOGENE
+            - id: 97a
+              name: Punchy PERRY
+            - id: 97b
+              name: Creamed KEITH
+            - id: 98a
+              name: CHARLOTTE Web
+            - id: 98b
+              name: DIDI T.
+            - id: 99a
+              name: Beaky BECKY
+            - id: 99b
+              name: Picky MICKEY
+            - id: 100a
+              name: ALI Gator
+            - id: 100b
+              name: Marshy MARSHALL
+            - id: 101a
+              name: Mushy MARSHA
+            - id: 101b
+              name: Basking ROBIN
+            - id: 102a
+              name: Mugged MARCUS
+            - id: 102b
+              name: Kayo'd CODY
+            - id: 103a
+              name: Wriggley RENE
+            - id: 103b
+              name: Curly CARLA
+            - id: 104a
+              name: Silent SANDY
+            - id: 104b
+              name: Barren AARON
+            - id: 105a
+              name: Juicy JESSICA
+            - id: 105b
+              name: Green DEAN
+            - id: 106a
+              name: Fowl RAOUL
+            - id: 106b
+              name: MACK Quack
+            - id: 107a
+              name: Totem PAULA
+            - id: 107b
+              name: TATUM Pole
+            - id: 108a
+              name: Smelly SALLY
+            - id: 108b
+              name: Fishy PHYLLIS
+            - id: 109a
+              name: Toady TERRY
+            - id: 109b
+              name: CrOakin' COLIN
+            - id: 110a
+              name: Snooty SAM
+            - id: 110b
+              name: U.S. ARNIE
+            - id: 111a
+              name: Target MARGARET
+            - id: 111b
+              name: Bullseye BARRY
+            - id: 112a
+              name: FRANK N. Stein
+            - id: 112b
+              name: Undead JED
+            - id: 113a
+              name: ALICE Island
+            - id: 113b
+              name: Liberty LIBBY
+            - id: 114a
+              name: Starin' DARREN
+            - id: 114b
+              name: Peepin' TOM
+            - id: 115a
+              name: Warmin' NORMAN
+            - id: 115b
+              name: Well Done SHELDON
+            - id: 116a
+              name: Eerie ERIC
+            - id: 116b
+              name: Berserk KIRK
+            - id: 117a
+              name: ROCKY N. Roll
+            - id: 117b
+              name: LES Vegas
+            - id: 118a
+              name: Half-NELSON
+            - id: 118b
+              name: Glandular ANGELA
+            - id: 119a
+              name: NED Head
+            - id: 119b
+              name: Still JILL
+            - id: 120a
+              name: Babbling BROOKE
+            - id: 120b
+              name: Jelly KELLY
+            - id: 121a
+              name: Apple CORY
+            - id: 121b
+              name: DWIGHT Bite
+            - id: 122a
+              name: Broad MAUD
+            - id: 122b
+              name: Large MARGE
+            - id: 123a
+              name: Glooey GABE
+            - id: 123b
+              name: Sticky RICK
+            - id: 124a
+              name: HUGH Mungous
+            - id: 124b
+              name: King-Size KEVIN
         #
         # Original Series 4 (1986)
         #
-        - HOLLY Wood              # 125a
-        - Woody ALAN              # 125b
-        - Oak KAY                 # 125b
-        - Armpit BRITT            # 126a
-        - Shaggy AGGIE            # 126b
-        - Travelin' TRAVIS        # 127a
-        - Flat TYLER              # 127b
-        - Sloshed JOSH            # 128a
-        - Low CAL                 # 128b
-        - Second Hand ROSE        # 129a
-        - Trashed TRACY           # 129b
-        - NICKY HICKEY            # 130a
-        - HANK E. Panky           # 130b
-        - Stuffed STEPHEN         # 131a
-        - RUTHERFORD B. Hay       # 131b
-        - Bony TONY               # 132a
-        - Unzipped ZACK           # 132b
-        - Furry MURRAY            # 133a
-        - Foxy FRANCES            # 133b
-        - Hip KIP                 # 134a
-        - WALT Witless            # 134b
-        - ROCK E. Horror          # 135a
-        - MARTY Gras              # 135b
-        - Swollen SUE ELLEN       # 136a
-        - Bloated BLAIR           # 136b
-        - MAX Axe                 # 137a
-        - Deadly DUDLEY           # 137b
-        - Alien IAN               # 138a
-        - Outerspace CHASE        # 138b
-        - Double IRIS             # 139a
-        - 4-Eyed IDA              # 139b
-        - Mouth PHIL              # 140a
-        - Tooth LES               # 140b
-        - ASHLEY Can              # 141a
-        - GRETA Garbage           # 141b
-        - BRUCE Moose             # 142a
-        - Hunted HUNTER           # 142b
-        - MELBA Toast             # 143a
-        - HY Rye                  # 143b
-        - Horny HAL               # 144a
-        - RUDY Toot               # 144b
-        - DALE Snail              # 145a
-        - Crushed SHELLY          # 145b
-        - Baked JAKE              # 146a
-        - Dry GUY                 # 146b
-        - Amazin' GRACE           # 147a
-        - Muscular MOLLY          # 147b
-        - Turned-On TARA          # 148a
-        - TIFFANY Lamp            # 148b
-        - REESE Pieces            # 149a
-        - Puzzled PAUL            # 149a
-        - Incomplete PETE         # 149b
-        - Hairy HARRIET           # 150a
-        - Bushy BERNICE           # 150b
-        - Losin' FAITH            # 151a
-        - Dyin' DINAH             # 151b
-        - Whisperin' Woody        # 152a
-        - VAN Triloquist          # 152b
-        - JACK O. Lantern         # 153a
-        - DUNCAN Pumpkin          # 153b
-        - Basket CASEY            # 154a
-        - Dribblin' DEREK         # 154b
-        - Spikey MIKEY            # 155a
-        - Nailed NEIL             # 155b
-        - Warrin' WARREN          # 156a
-        - BRETT Vet               # 156b
-        - LARRY Lips              # 157a
-        - Distortin' MORTAN       # 157b
-        - Meltin' ELTON           # 158a
-        - CRYSTAL Gale            # 158b
-        - Ig LOU                  # 158b
-        - Catty CATHY             # 159a
-        - KITTY Litter            # 159b
-        - Decapitated HEDY        # 160a
-        - Formalde HEIDI          # 160b
-        - Shorned SEAN            # 161a
-        - Hy GENE                 # 161b
-        - Yicchy MICKEY           # 162a
-        - Barfin' BART            # 162b
-        - TRISH Squish            # 163a
-        - RUBY Cube               # 163b
-        - TEDDY Bear              # 164a
-        - SALVATORE Dolly         # 164b
-        - Battered BRAD           # 164b
-        - DANA Druff              # 165a
-        - Flakey FAY              # 165b
-        - Gored GORDON            # 166a
-        - No Way JOSÉ             # 166b
+        - id: OS4
+          name: Original Series 4
+          year: 1986
+          cards:
+            - id: 125a
+              name: HOLLY Wood
+            - id: 125b
+              name: Woody ALAN
+            - id: 125b
+              name: Oak KAY
+            - id: 126a
+              name: Armpit BRITT
+            - id: 126b
+              name: Shaggy AGGIE
+            - id: 127a
+              name: Travelin' TRAVIS
+            - id: 127b
+              name: Flat TYLER
+            - id: 128a
+              name: Sloshed JOSH
+            - id: 128b
+              name: Low CAL
+            - id: 129a
+              name: Second Hand ROSE
+            - id: 129b
+              name: Trashed TRACY
+            - id: 130a
+              name: NICKY HICKEY
+            - id: 130b
+              name: HANK E. Panky
+            - id: 131a
+              name: Stuffed STEPHEN
+            - id: 131b
+              name: RUTHERFORD B. Hay
+            - id: 132a
+              name: Bony TONY
+            - id: 132b
+              name: Unzipped ZACK
+            - id: 133a
+              name: Furry MURRAY
+            - id: 133b
+              name: Foxy FRANCES
+            - id: 134a
+              name: Hip KIP
+            - id: 134b
+              name: WALT Witless
+            - id: 135a
+              name: ROCK E. Horror
+            - id: 135b
+              name: MARTY Gras
+            - id: 136a
+              name: Swollen SUE ELLEN
+            - id: 136b
+              name: Bloated BLAIR
+            - id: 137a
+              name: MAX Axe
+            - id: 137b
+              name: Deadly DUDLEY
+            - id: 138a
+              name: Alien IAN
+            - id: 138b
+              name: Outerspace CHASE
+            - id: 139a
+              name: Double IRIS
+            - id: 139b
+              name: 4-Eyed IDA
+            - id: 140a
+              name: Mouth PHIL
+            - id: 140b
+              name: Tooth LES
+            - id: 141a
+              name: ASHLEY Can
+            - id: 141b
+              name: GRETA Garbage
+            - id: 142a
+              name: BRUCE Moose
+            - id: 142b
+              name: Hunted HUNTER
+            - id: 143a
+              name: MELBA Toast
+            - id: 143b
+              name: HY Rye
+            - id: 144a
+              name: Horny HAL
+            - id: 144b
+              name: RUDY Toot
+            - id: 145a
+              name: DALE Snail
+            - id: 145b
+              name: Crushed SHELLY
+            - id: 146a
+              name: Baked JAKE
+            - id: 146b
+              name: Dry GUY
+            - id: 147a
+              name: Amazin' GRACE
+            - id: 147b
+              name: Muscular MOLLY
+            - id: 148a
+              name: Turned-On TARA
+            - id: 148b
+              name: TIFFANY Lamp
+            - id: 149a
+              name: REESE Pieces
+            - id: 149a
+              name: Puzzled PAUL
+            - id: 149b
+              name: Incomplete PETE
+            - id: 150a
+              name: Hairy HARRIET
+            - id: 150b
+              name: Bushy BERNICE
+            - id: 151a
+              name: Losin' FAITH
+            - id: 151b
+              name: Dyin' DINAH
+            - id: 152a
+              name: Whisperin' Woody
+            - id: 152b
+              name: VAN Triloquist
+            - id: 153a
+              name: JACK O. Lantern
+            - id: 153b
+              name: DUNCAN Pumpkin
+            - id: 154a
+              name: Basket CASEY
+            - id: 154b
+              name: Dribblin' DEREK
+            - id: 155a
+              name: Spikey MIKEY
+            - id: 155b
+              name: Nailed NEIL
+            - id: 156a
+              name: Warrin' WARREN
+            - id: 156b
+              name: BRETT Vet
+            - id: 157a
+              name: LARRY Lips
+            - id: 157b
+              name: Distortin' MORTAN
+            - id: 158a
+              name: Meltin' ELTON
+            - id: 158b
+              name: CRYSTAL Gale
+            - id: 158b
+              name: Ig LOU
+            - id: 159a
+              name: Catty CATHY
+            - id: 159b
+              name: KITTY Litter
+            - id: 160a
+              name: Decapitated HEDY
+            - id: 160b
+              name: Formalde HEIDI
+            - id: 161a
+              name: Shorned SEAN
+            - id: 161b
+              name: Hy GENE
+            - id: 162a
+              name: Yicchy MICKEY
+            - id: 162b
+              name: Barfin' BART
+            - id: 163a
+              name: TRISH Squish
+            - id: 163b
+              name: RUBY Cube
+            - id: 164a
+              name: TEDDY Bear
+            - id: 164b
+              name: SALVATORE Dolly
+            - id: 164b
+              name: Battered BRAD
+            - id: 165a
+              name: DANA Druff
+            - id: 165b
+              name: Flakey FAY
+            - id: 166a
+              name: Gored GORDON
+            - id: 166b
+              name: No Way JOSÉ
         #
         # Original Series 5 (1986)
         #
-        - MICK Dagger             # 167a
-        - Slayed SLADE            # 167b
-        - Handy RANDY             # 168a
-        - JORDAN Nuts             # 168b
-        - DEE Faced               # 169a
-        - TERRI Cloth             # 169b
-        - RICHIE Retch            # 170a
-        - LUKE Puke               # 170b
-        - WILLIE Wipe-Out         # 171a
-        - SPENCER Dispenser       # 171b
-        - NAT Nerd                # 172a
-        - CLARK Can't             # 172b
-        - Menaced DENNIS          # 173a
-        - Wormy SHERMY            # 173b
-        - FRED Thread             # 174a
-        - Repaired REX            # 174b
-        - Windy WINSTON           # 175a
-        - JOHNNY One-Note         # 175b
-        - Condo-MINNIE            # 176a
-        - BILL Ding               # 176b
-        - Meltin' MILTON          # 177a
-        - Lazy LOUIE              # 177b
-        - EARL Painting           # 178a
-        - Blue-Boy GEORGE         # 178b
-        - MOE Skeeto              # 179a
-        - Sting RAY               # 179b
-        - Haunted HOLLIS          # 180a
-        - Batty BARNEY            # 180b
-        - CLIFF Hanger            # 181a
-        - Neck TY                 # 181b
-        - Sprayed WADE            # 182a
-        - Tagged TAD              # 182b
-        - Diaper DAN              # 183a
-        - Pinned PENNY            # 183b
-        - Upside Down DONALD      # 184a
-        - HUGH Turn               # 184b
-        - FRAN Furter             # 185a
-        - Hot DOUG                # 185b
-        - Iron-Jaw AARON          # 186a
-        - JEAN Machine            # 186b
-        - GINGER Snapped          # 187a
-        - Edible ERNIE            # 187b
-        - MEL Meal                # 188a
-        - ROSS Roast              # 188b
-        - BRENDA Blender          # 189a
-        - Juicy LUCY              # 189b
-        - Gory RORY               # 190a
-        - GIL GRILL               # 190b
-        - BEN Bolt                # 191a
-        - Fried FRANKLIN          # 191b
-        - Delicate TESS           # 192a
-        - Hamburger PATTIE        # 192b
-        - Shattered SHELBY        # 193a
-        - Cracked CRAIG           # 193b
-        - Nasty NANCY             # 194a
-        - Razzin' ROSLYN          # 194b
-        - LUCAS Mucus             # 195a
-        - DOTTY Dribble           # 195b
-        - Dangling DOLLY          # 196a
-        - Surreal NEAL            # 196b
-        - Doughy JOEY             # 197a
-        - Starchy ARCHIE          # 197b
-        - Gore MAY                # 198a
-        - CONNIE Sewer            # 198b
-        - Ruptured RUPERT         # 199a
-        - Gassy GUS               # 199b
-        - Fluoride FLOYD          # 200a
-        - Dental DANIEL           # 200b
-        - MICHAEL Mutant          # 201a
-        - ZEKE Freak              # 201b
-        - Ultra VIOLET            # 202a
-        - TANYA Hide              # 202b
-        - Toothie RUTHIE          # 203a
-        - Dental FLOSSIE          # 203b
-        - JULES Drools            # 204a
-        - KIT Spit                # 204b
-        - Hot ROD                 # 205a
-        - BUD Buggy               # 205b
-        - Deaf GEOFF              # 206a
-        - Audio AUGIE             # 206b
+        - id: OS5
+          name: Original Series 5
+          year: 1986
+          cards:
+            - id: 167a
+              name: MICK Dagger
+            - id: 167b
+              name: Slayed SLADE
+            - id: 168a
+              name: Handy RANDY
+            - id: 168b
+              name: JORDAN Nuts
+            - id: 169a
+              name: DEE Faced
+            - id: 169b
+              name: TERRI Cloth
+            - id: 170a
+              name: RICHIE Retch
+            - id: 170b
+              name: LUKE Puke
+            - id: 171a
+              name: WILLIE Wipe-Out
+            - id: 171b
+              name: SPENCER Dispenser
+            - id: 172a
+              name: NAT Nerd
+            - id: 172b
+              name: CLARK Can't
+            - id: 173a
+              name: Menaced DENNIS
+            - id: 173b
+              name: Wormy SHERMY
+            - id: 174a
+              name: FRED Thread
+            - id: 174b
+              name: Repaired REX
+            - id: 175a
+              name: Windy WINSTON
+            - id: 175b
+              name: JOHNNY One-Note
+            - id: 176a
+              name: Condo-MINNIE
+            - id: 176b
+              name: BILL Ding
+            - id: 177a
+              name: Meltin' MILTON
+            - id: 177b
+              name: Lazy LOUIE
+            - id: 178a
+              name: EARL Painting
+            - id: 178b
+              name: Blue-Boy GEORGE
+            - id: 179a
+              name: MOE Skeeto
+            - id: 179b
+              name: Sting RAY
+            - id: 180a
+              name: Haunted HOLLIS
+            - id: 180b
+              name: Batty BARNEY
+            - id: 181a
+              name: CLIFF Hanger
+            - id: 181b
+              name: Neck TY
+            - id: 182a
+              name: Sprayed WADE
+            - id: 182b
+              name: Tagged TAD
+            - id: 183a
+              name: Diaper DAN
+            - id: 183b
+              name: Pinned PENNY
+            - id: 184a
+              name: Upside Down DONALD
+            - id: 184b
+              name: HUGH Turn
+            - id: 185a
+              name: FRAN Furter
+            - id: 185b
+              name: Hot DOUG
+            - id: 186a
+              name: Iron-Jaw AARON
+            - id: 186b
+              name: JEAN Machine
+            - id: 187a
+              name: GINGER Snapped
+            - id: 187b
+              name: Edible ERNIE
+            - id: 188a
+              name: MEL Meal
+            - id: 188b
+              name: ROSS Roast
+            - id: 189a
+              name: BRENDA Blender
+            - id: 189b
+              name: Juicy LUCY
+            - id: 190a
+              name: Gory RORY
+            - id: 190b
+              name: GIL GRILL
+            - id: 191a
+              name: BEN Bolt
+            - id: 191b
+              name: Fried FRANKLIN
+            - id: 192a
+              name: Delicate TESS
+            - id: 192b
+              name: Hamburger PATTIE
+            - id: 193a
+              name: Shattered SHELBY
+            - id: 193b
+              name: Cracked CRAIG
+            - id: 194a
+              name: Nasty NANCY
+            - id: 194b
+              name: Razzin' ROSLYN
+            - id: 195a
+              name: LUCAS Mucus
+            - id: 195b
+              name: DOTTY Dribble
+            - id: 196a
+              name: Dangling DOLLY
+            - id: 196b
+              name: Surreal NEAL
+            - id: 197a
+              name: Doughy JOEY
+            - id: 197b
+              name: Starchy ARCHIE
+            - id: 198a
+              name: Gore MAY
+            - id: 198b
+              name: CONNIE Sewer
+            - id: 199a
+              name: Ruptured RUPERT
+            - id: 199b
+              name: Gassy GUS
+            - id: 200a
+              name: Fluoride FLOYD
+            - id: 200b
+              name: Dental DANIEL
+            - id: 201a
+              name: MICHAEL Mutant
+            - id: 201b
+              name: ZEKE Freak
+            - id: 202a
+              name: Ultra VIOLET
+            - id: 202b
+              name: TANYA Hide
+            - id: 203a
+              name: Toothie RUTHIE
+            - id: 203b
+              name: Dental FLOSSIE
+            - id: 204a
+              name: JULES Drools
+            - id: 204b
+              name: KIT Spit
+            - id: 205a
+              name: Hot ROD
+            - id: 205b
+              name: BUD Buggy
+            - id: 206a
+              name: Deaf GEOFF
+            - id: 206b
+              name: Audio AUGIE
         #
         # Original Series 6 (1986)
         #
-        - Over FLO                # 207a
-        - Moist JOYCE             # 207b
-        - JOEL Hole               # 208a
-        - Teed-Off TOM            # 208b
-        - Whacked-Up WALLY        # 209a
-        - Paddlin' MADELINE       # 209b
-        - Intense PAYNE           # 210a
-        - First ADA               # 210b
-        - See More SEYMOUR        # 211a
-        - Coy ROY                 # 211b
-        - Upliftin' CLIFTON       # 212a
-        - Air-Head JED            # 212b
-        - OTTO Whack              # 213a
-        - ELLIOT Mess             # 213b
-        - Off-Color CLARA         # 214a
-        - Brushed-Off BRENDA      # 214b
-        - Gnawing NORA            # 215a
-        - Nervous NELLIE          # 215b
-        - Tiny TIM                # 216a
-        - Small SAUL              # 216b
-        - Trashy TRUDY            # 217a
-        - ROSE Dispose            # 217b
-        - TOM Thumb               # 218a
-        - BRIDGET Digit           # 218b
-        - GEORGE Washingdone      # 219a
-        - Pressed PRESTON         # 219b
-        - JOAN Clone              # 220a
-        - Warty WARD              # 220b
-        - Cracked CRYSTAL         # 221a
-        - Shrill JILL             # 221b
-        - TROY Toy                # 222a
-        - Loose SPRING            # 222b
-        - LOLLY POPPY             # 223a
-        - LILY Popped             # 223b
-        - MONTE Zuma              # 224a
-        - Pagan MEGAN             # 224b
-        - Nasal HAZEL             # 225a
-        - Snotty LOTTIE           # 225b
-        - Pierced PEARL           # 226a
-        - Cheap JEWEL             # 226b
-        - BEA Sting               # 227a
-        - Screaming MIMI          # 227b
-        - CASPER Gasper           # 228a
-        - Uncool CARL             # 228b
-        - CLAIRE Stare            # 229a
-        - Bloodshot SCOTT         # 229b
-        - MANUEL Labor            # 230a
-        - Handy ANDY              # 230b
-        - ASHLEY Tray             # 231a
-        - BERNIE Burns            # 231b
-        - PAM Ham                 # 232a
-        - COLE Cut                # 232b
-        - WES Mess                # 233a
-        - Trash-Can KEN           # 233b
-        - HARRY Canary            # 234a
-        - BURT Cage               # 234b
-        - Ugly HANS               # 235a
-        - JAN Hand                # 235b
-        - TRINA Cleaner           # 236a
-        - Suckin' SYBIL           # 236b
-        - Totaled TODD            # 237a
-        - Towin' OWEN             # 237b
-        - MARC Spark              # 238a
-        - CHERRY Bomb             # 238b
-        - JERRY Atric             # 239a
-        - ABRAHAM Wrinklin'       # 239b
-        - Radar RAY               # 240a
-        - EVE Droppin'            # 240b
-        - Old GLORIA              # 241a
-        - JOSE Can You See        # 241b
-        - Clean MAUREEN           # 242a
-        - Dryin' RYAN             # 242b
-        - LEE Tree                # 243a
-        - Sherwood FOREST         # 243b
-        - Welcome MATT            # 244a
-        - Muddy MAUD              # 244b
-        - Shish K. BOB            # 245a
-        - BARBIE Q.               # 245b
-        - JOHN John               # 246a
-        - Flushing FLOYD          # 246b
-        - RUSTY Heap              # 247a
-        - Rustin' JUSTIN          # 247b
-        - HECTOR Collector        # 248a
-        - G.P. KAY                # 248b
-        - Many LENNY              # 249a
-        - Lotta CARLOTTA          # 249b
-        - Newly-Dead ED           # 250a
-        - Dyna MIKE               # 250b
+        - id: OS6
+          name: Original Series 6
+          year: 1986
+          cards:
+            - id: 207a
+              name: Over FLO
+            - id: 207b
+              name: Moist JOYCE
+            - id: 208a
+              name: JOEL Hole
+            - id: 208b
+              name: Teed-Off TOM
+            - id: 209a
+              name: Whacked-Up WALLY
+            - id: 209b
+              name: Paddlin' MADELINE
+            - id: 210a
+              name: Intense PAYNE
+            - id: 210b
+              name: First ADA
+            - id: 211a
+              name: See More SEYMOUR
+            - id: 211b
+              name: Coy ROY
+            - id: 212a
+              name: Upliftin' CLIFTON
+            - id: 212b
+              name: Air-Head JED
+            - id: 213a
+              name: OTTO Whack
+            - id: 213b
+              name: ELLIOT Mess
+            - id: 214a
+              name: Off-Color CLARA
+            - id: 214b
+              name: Brushed-Off BRENDA
+            - id: 215a
+              name: Gnawing NORA
+            - id: 215b
+              name: Nervous NELLIE
+            - id: 216a
+              name: Tiny TIM
+            - id: 216b
+              name: Small SAUL
+            - id: 217a
+              name: Trashy TRUDY
+            - id: 217b
+              name: ROSE Dispose
+            - id: 218a
+              name: TOM Thumb
+            - id: 218b
+              name: BRIDGET Digit
+            - id: 219a
+              name: GEORGE Washingdone
+            - id: 219b
+              name: Pressed PRESTON
+            - id: 220a
+              name: JOAN Clone
+            - id: 220b
+              name: Warty WARD
+            - id: 221a
+              name: Cracked CRYSTAL
+            - id: 221b
+              name: Shrill JILL
+            - id: 222a
+              name: TROY Toy
+            - id: 222b
+              name: Loose SPRING
+            - id: 223a
+              name: LOLLY POPPY
+            - id: 223b
+              name: LILY Popped
+            - id: 224a
+              name: MONTE Zuma
+            - id: 224b
+              name: Pagan MEGAN
+            - id: 225a
+              name: Nasal HAZEL
+            - id: 225b
+              name: Snotty LOTTIE
+            - id: 226a
+              name: Pierced PEARL
+            - id: 226b
+              name: Cheap JEWEL
+            - id: 227a
+              name: BEA Sting
+            - id: 227b
+              name: Screaming MIMI
+            - id: 228a
+              name: CASPER Gasper
+            - id: 228b
+              name: Uncool CARL
+            - id: 229a
+              name: CLAIRE Stare
+            - id: 229b
+              name: Bloodshot SCOTT
+            - id: 230a
+              name: MANUEL Labor
+            - id: 230b
+              name: Handy ANDY
+            - id: 231a
+              name: ASHLEY Tray
+            - id: 231b
+              name: BERNIE Burns
+            - id: 232a
+              name: PAM Ham
+            - id: 232b
+              name: COLE Cut
+            - id: 233a
+              name: WES Mess
+            - id: 233b
+              name: Trash-Can KEN
+            - id: 234a
+              name: HARRY Canary
+            - id: 234b
+              name: BURT Cage
+            - id: 235a
+              name: Ugly HANS
+            - id: 235b
+              name: JAN Hand
+            - id: 236a
+              name: TRINA Cleaner
+            - id: 236b
+              name: Suckin' SYBIL
+            - id: 237a
+              name: Totaled TODD
+            - id: 237b
+              name: Towin' OWEN
+            - id: 238a
+              name: MARC Spark
+            - id: 238b
+              name: CHERRY Bomb
+            - id: 239a
+              name: JERRY Atric
+            - id: 239b
+              name: ABRAHAM Wrinklin'
+            - id: 240a
+              name: Radar RAY
+            - id: 240b
+              name: EVE Droppin'
+            - id: 241a
+              name: Old GLORIA
+            - id: 241b
+              name: JOSE Can You See
+            - id: 242a
+              name: Clean MAUREEN
+            - id: 242b
+              name: Dryin' RYAN
+            - id: 243a
+              name: LEE Tree
+            - id: 243b
+              name: Sherwood FOREST
+            - id: 244a
+              name: Welcome MATT
+            - id: 244b
+              name: Muddy MAUD
+            - id: 245a
+              name: Shish K. BOB
+            - id: 245b
+              name: BARBIE Q.
+            - id: 246a
+              name: JOHN John
+            - id: 246b
+              name: Flushing FLOYD
+            - id: 247a
+              name: RUSTY Heap
+            - id: 247b
+              name: Rustin' JUSTIN
+            - id: 248a
+              name: HECTOR Collector
+            - id: 248b
+              name: G.P. KAY
+            - id: 249a
+              name: Many LENNY
+            - id: 249b
+              name: Lotta CARLOTTA
+            - id: 250a
+              name: Newly-Dead ED
+            - id: 250b
+              name: Dyna MIKE
         #
         # Original Series 7 (1987)
         #
-        - Barfin' BARBARA         # 251a
-        - VALERIE Vomit           # 251b
-        - Milky WAYNE             # 252a
-        - Dairy CARI              # 252b
-        - RUSS Pus                # 253a
-        - LOUISE Squeeze          # 253b
-        - CHRIS Mess              # 254a
-        - SANDY Clod              # 254b
-        - On The MARK             # 255a
-        - Bull's IRA              # 255b
-        - JACK Pot                # 256a
-        - MONTE Carlo             # 256b
-        - Cut-Up CARMEN           # 257a
-        - Dotted LIONEL           # 257b
-        - MICKEY Mouths           # 258a
-        - Oral LAUREL             # 258b
-        - Grilled GIL             # 259a
-        - Well DON                # 259b
-        - ADAM Boom               # 260a
-        - Blasted BILLY II        # 260b
-        - Gooey HUEY              # 261a
-        - BOBBI Booger            # 261b
-        - Brainless BRYAN         # 262a
-        - Jughead TED             # 262b
-        - VINCENT Van Gone        # 263a
-        - Modern ART              # 263b
-        - PETE Seat               # 264a
-        - NOEL Bowl               # 264b
-        - Curly SHIRLEY           # 265a
-        - Blown JOAN              # 265b
-        - ROY L. Flush            # 266a
-        - Shuffled SHERMAN        # 266b
-        - Tongue Tied TINA        # 267a
-        - Braided BRANDY          # 267b
-        - PHIL Grim               # 268a
-        - WILLIAM Penned          # 268b
-        - Sharpened SHEENA        # 269a
-        - Cranky KRISTIN          # 269b
-        - Cannibal STU            # 270a
-        - Brewin' BRUNO           # 270b
-        - Bratty MADDY            # 271a
-        - Dirty BIRDIE            # 271b
-        - Elastic ELWOOD          # 272a
-        - FLETCHER Stretcher      # 272b
-        - Haunted FORREST         # 273a
-        - Sappy SARAH             # 273b
-        - Reptillian LILLIAN      # 274a
-        - JAY Prey                # 274b
-        - Wheel BARRY             # 275a
-        - Rollin' ROLAND          # 275b
-        - VANESSA Undresser       # 276a
-        - Banana ANNA             # 276b
-        - REUBEN CUBE             # 277a
-        - Blockhead BLAKE         # 277b
-        - Have A Nice DAVE        # 278a
-        - MILES Smiles            # 278b
-        - Short MORT              # 279a
-        - NOAH Body               # 279b
-        - Shut-Up SHERWIN         # 280a
-        - Filled Up PHILIP        # 280b
-        - Soured HOWARD           # 281a
-        - PAUL Bunion             # 281b
-        - Screwey DEWEY           # 282a
-        - Bent BRENT              # 282b
-        - Alien ALAN              # 283a
-        - Martian MARCIA          # 283b
-        - MANNY Heads             # 284a
-        - MAX Stacks              # 284b
-        - Wind SHEILA             # 285a
-        - Hit N' RONNIE           # 285b
-        - HALEY Comet             # 286a
-        - JUNE Moon               # 286b
-        - CHRISTINE Vaccine       # 287a
-        - Medi KATE               # 287b
-        - GRANT Ant               # 288a
-        - Sticky NIKKI            # 288b
-        - Stair CASEY             # 289a
-        - ALEXANDER The Grate     # 289b
-        - Busted ARMAND           # 290a
-        - JIM Nauseum             # 290b
-        - HOMER Runt              # 291a
-        - Screwball LEW           # 291b
-        - Staple GUNTHER          # 292a
-        - Clipped CLAUDE          # 292b
+        - id: OS7
+          name: Original Series 7
+          year: 1987
+          cards:
+            - id: 251a
+              name: Barfin' BARBARA
+            - id: 251b
+              name: VALERIE Vomit
+            - id: 252a
+              name: Milky WAYNE
+            - id: 252b
+              name: Dairy CARI
+            - id: 253a
+              name: RUSS Pus
+            - id: 253b
+              name: LOUISE Squeeze
+            - id: 254a
+              name: CHRIS Mess
+            - id: 254b
+              name: SANDY Clod
+            - id: 255a
+              name: On The MARK
+            - id: 255b
+              name: Bull's IRA
+            - id: 256a
+              name: JACK Pot
+            - id: 256b
+              name: MONTE Carlo
+            - id: 257a
+              name: Cut-Up CARMEN
+            - id: 257b
+              name: Dotted LIONEL
+            - id: 258a
+              name: MICKEY Mouths
+            - id: 258b
+              name: Oral LAUREL
+            - id: 259a
+              name: Grilled GIL
+            - id: 259b
+              name: Well DON
+            - id: 260a
+              name: ADAM Boom
+            - id: 260b
+              name: Blasted BILLY II
+            - id: 261a
+              name: Gooey HUEY
+            - id: 261b
+              name: BOBBI Booger
+            - id: 262a
+              name: Brainless BRYAN
+            - id: 262b
+              name: Jughead TED
+            - id: 263a
+              name: VINCENT Van Gone
+            - id: 263b
+              name: Modern ART
+            - id: 264a
+              name: PETE Seat
+            - id: 264b
+              name: NOEL Bowl
+            - id: 265a
+              name: Curly SHIRLEY
+            - id: 265b
+              name: Blown JOAN
+            - id: 266a
+              name: ROY L. Flush
+            - id: 266b
+              name: Shuffled SHERMAN
+            - id: 267a
+              name: Tongue Tied TINA
+            - id: 267b
+              name: Braided BRANDY
+            - id: 268a
+              name: PHIL Grim
+            - id: 268b
+              name: WILLIAM Penned
+            - id: 269a
+              name: Sharpened SHEENA
+            - id: 269b
+              name: Cranky KRISTIN
+            - id: 270a
+              name: Cannibal STU
+            - id: 270b
+              name: Brewin' BRUNO
+            - id: 271a
+              name: Bratty MADDY
+            - id: 271b
+              name: Dirty BIRDIE
+            - id: 272a
+              name: Elastic ELWOOD
+            - id: 272b
+              name: FLETCHER Stretcher
+            - id: 273a
+              name: Haunted FORREST
+            - id: 273b
+              name: Sappy SARAH
+            - id: 274a
+              name: Reptillian LILLIAN
+            - id: 274b
+              name: JAY Prey
+            - id: 275a
+              name: Wheel BARRY
+            - id: 275b
+              name: Rollin' ROLAND
+            - id: 276a
+              name: VANESSA Undresser
+            - id: 276b
+              name: Banana ANNA
+            - id: 277a
+              name: REUBEN CUBE
+            - id: 277b
+              name: Blockhead BLAKE
+            - id: 278a
+              name: Have A Nice DAVE
+            - id: 278b
+              name: MILES Smiles
+            - id: 279a
+              name: Short MORT
+            - id: 279b
+              name: NOAH Body
+            - id: 280a
+              name: Shut-Up SHERWIN
+            - id: 280b
+              name: Filled Up PHILIP
+            - id: 281a
+              name: Soured HOWARD
+            - id: 281b
+              name: PAUL Bunion
+            - id: 282a
+              name: Screwey DEWEY
+            - id: 282b
+              name: Bent BRENT
+            - id: 283a
+              name: Alien ALAN
+            - id: 283b
+              name: Martian MARCIA
+            - id: 284a
+              name: MANNY Heads
+            - id: 284b
+              name: MAX Stacks
+            - id: 285a
+              name: Wind SHEILA
+            - id: 285b
+              name: Hit N' RONNIE
+            - id: 286a
+              name: HALEY Comet
+            - id: 286b
+              name: JUNE Moon
+            - id: 287a
+              name: CHRISTINE Vaccine
+            - id: 287b
+              name: Medi KATE
+            - id: 288a
+              name: GRANT Ant
+            - id: 288b
+              name: Sticky NIKKI
+            - id: 289a
+              name: Stair CASEY
+            - id: 289b
+              name: ALEXANDER The Grate
+            - id: 290a
+              name: Busted ARMAND
+            - id: 290b
+              name: JIM Nauseum
+            - id: 291a
+              name: HOMER Runt
+            - id: 291b
+              name: Screwball LEW
+            - id: 292a
+              name: Staple GUNTHER
+            - id: 292b
+              name: Clipped CLAUDE
         #
         # Original Series 8 (1987)
         #
-        - Explorin' NORMAN        # 293A
-        - Drillin' DYLAN          # 293B
-        - Weird WENDELL           # 294A
-        - LUKE At Me              # 294B
-        - CHARLIE Horse           # 295A
-        - Amusement PARKER        # 295B
-        - Plucked DAISY           # 296A
-        - Wiltin' MILTON          # 296B
-        - YUL Tied                # 297A
-        - MURRAY Christmas        # 297B
-        - Bloody MARY             # 298A
-        - DONNA Donor             # 298B
-        - BUCK Puck               # 299A
-        - LOWELL Goal             # 299B
-        - CORRINA Corona          # 300A
-        - Smoky JOE               # 300B
-        - Bowling ELAINE          # 301A
-        - MIKE Strike             # 301B
-        - Mixed-Up MICK           # 302A
-        - Artificial MITCHELL     # 302B
-        - Hung Up HANK            # 303A
-        - Coat Rack ZACK          # 303B
-        - Rubbin' ROBYN           # 304A
-        - Soapy OPIE              # 304B
-        - Grate SCOTT             # 305A
-        - REGGIE Veggie           # 305B
-        - MIDGE Fridge            # 306A
-        - Leftover GROVER         # 306B
-        - Divin' IVAN             # 307A
-        - WALTER Sport            # 307B
-        - FRITZ Spritz            # 308A
-        - ELLA P. Record          # 308B
-        - Heartless HAL           # 309A
-        - BOWEN Arrow             # 309B
-        - Stinkin' STELLA         # 310A
-        - Smellin' HELEN          # 310B
-        - STU Spew                # 311A
-        - Slimin' SIMON           # 311B
-        - MOE Bile                # 312A
-        - Dang LEN                # 312B
-        - GRAHAM Bell             # 313A
-        - Death NELL              # 313B
-        - Shifting SANDY          # 314A
-        - Grainy JANEY            # 314B
-        - Messy BESSIE            # 315A
-        - Unclean HELENE          # 315B
-        - Flowin' OWEN            # 316A
-        - RUSSELL Spout           # 316B
-        - JAMES Flames            # 317A
-        - Burnin' VERNON          # 317B
-        - HALEY's Vomit           # 318A
-        - Inter STELLA            # 318B
-        - Chopped SUSIE           # 319A
-        - SHANA Saw               # 319B
-        - Pumping AARON           # 320A
-        - WILL Explode            # 320B
-        - Squashed JOSH           # 321A
-        - Squoze ROSE             # 321B
-        - K.O.'d KARL             # 322A
-        - Sparrin' WARREN         # 322B
-        - Piece O' LISA           # 323A
-        - Wedding BELLA           # 323B
-        - Waffle IRA              # 324A
-        - Griddled GRETA          # 324B
-        - MARCEL Parcel           # 325A
-        - Handle With CAREN       # 325B
-        - Leather HEATHER         # 326A
-        - Chained SHANE           # 326B
-        - Needled NINA            # 327A
-        - Knittin' BRITTANY       # 327B
-        - Glowing AMBER           # 328A
-        - Bright DWIGHT           # 328B
-        - LEM Phlegm              # 329A
-        - Gezundt HEIDI           # 329B
-        - Lotta LOTTA             # 330A
-        - Dupli-KIT               # 330B
-        - PAGE Cage               # 331A
-        - TOMMY Ache              # 331B
-        - Sling SCOTT             # 332A
-        - TEDDY Aim Fire          # 332B
-        - Ortho DONNY             # 333A
-        - RUTH Canal              # 333B
-        - ASHLEY To Ashes         # 334A
-        - DUSTIN To Dust          # 334B
+        - id: OS8
+          name: Original Series 8
+          year: 1987
+          cards:
+            - id: 293a
+              name: Explorin' NORMAN
+            - id: 293b
+              name: Drillin' DYLAN
+            - id: 294a
+              name: Weird WENDELL
+            - id: 294b
+              name: LUKE At Me
+            - id: 295a
+              name: CHARLIE Horse
+            - id: 295b
+              name: Amusement PARKER
+            - id: 296a
+              name: Plucked DAISY
+            - id: 296b
+              name: Wiltin' MILTON
+            - id: 297a
+              name: YUL Tied
+            - id: 297b
+              name: MURRAY Christmas
+            - id: 298a
+              name: Bloody MARY
+            - id: 298b
+              name: DONNA Donor
+            - id: 299a
+              name: BUCK Puck
+            - id: 299b
+              name: LOWELL Goal
+            - id: 300a
+              name: CORRINA Corona
+            - id: 300b
+              name: Smoky JOE
+            - id: 301a
+              name: Bowling ELAINE
+            - id: 301b
+              name: MIKE Strike
+            - id: 302a
+              name: Mixed-Up MICK
+            - id: 302b
+              name: Artificial MITCHELL
+            - id: 303a
+              name: Hung Up HANK
+            - id: 303b
+              name: Coat Rack ZACK
+            - id: 304a
+              name: Rubbin' ROBYN
+            - id: 304b
+              name: Soapy OPIE
+            - id: 305a
+              name: Grate SCOTT
+            - id: 305b
+              name: REGGIE Veggie
+            - id: 306a
+              name: MIDGE Fridge
+            - id: 306b
+              name: Leftover GROVER
+            - id: 307a
+              name: Divin' IVAN
+            - id: 307b
+              name: WALTER Sport
+            - id: 308a
+              name: FRITZ Spritz
+            - id: 308b
+              name: ELLA P. Record
+            - id: 309a
+              name: Heartless HAL
+            - id: 309b
+              name: BOWEN Arrow
+            - id: 310a
+              name: Stinkin' STELLA
+            - id: 310b
+              name: Smellin' HELEN
+            - id: 311a
+              name: STU Spew
+            - id: 311b
+              name: Slimin' SIMON
+            - id: 312a
+              name: MOE Bile
+            - id: 312b
+              name: Dang LEN
+            - id: 313a
+              name: GRAHAM Bell
+            - id: 313b
+              name: Death NELL
+            - id: 314a
+              name: Shifting SANDY
+            - id: 314b
+              name: Grainy JANEY
+            - id: 315a
+              name: Messy BESSIE
+            - id: 315b
+              name: Unclean HELENE
+            - id: 316a
+              name: Flowin' OWEN
+            - id: 316b
+              name: RUSSELL Spout
+            - id: 317a
+              name: JAMES Flames
+            - id: 317b
+              name: Burnin' VERNON
+            - id: 318a
+              name: HALEY's Vomit
+            - id: 318b
+              name: Inter STELLA
+            - id: 319a
+              name: Chopped SUSIE
+            - id: 319b
+              name: SHANA Saw
+            - id: 320a
+              name: Pumping AARON
+            - id: 320b
+              name: WILL Explode
+            - id: 321a
+              name: Squashed JOSH
+            - id: 321b
+              name: Squoze ROSE
+            - id: 322a
+              name: K.O.'d KARL
+            - id: 322b
+              name: Sparrin' WARREN
+            - id: 323a
+              name: Piece O' LISA
+            - id: 323b
+              name: Wedding BELLA
+            - id: 324a
+              name: Waffle IRA
+            - id: 324b
+              name: Griddled GRETA
+            - id: 325a
+              name: MARCEL Parcel
+            - id: 325b
+              name: Handle With CAREN
+            - id: 326a
+              name: Leather HEATHER
+            - id: 326b
+              name: Chained SHANE
+            - id: 327a
+              name: Needled NINA
+            - id: 327b
+              name: Knittin' BRITTANY
+            - id: 328a
+              name: Glowing AMBER
+            - id: 328b
+              name: Bright DWIGHT
+            - id: 329a
+              name: LEM Phlegm
+            - id: 329b
+              name: Gezundt HEIDI
+            - id: 330a
+              name: Lotta LOTTA
+            - id: 330b
+              name: Dupli-KIT
+            - id: 331a
+              name: PAGE Cage
+            - id: 331b
+              name: TOMMY Ache
+            - id: 332a
+              name: Sling SCOTT
+            - id: 332b
+              name: TEDDY Aim Fire
+            - id: 333a
+              name: Ortho DONNY
+            - id: 333b
+              name: RUTH Canal
+            - id: 334a
+              name: ASHLEY To Ashes
+            - id: 334b
+              name: DUSTIN To Dust
         #
         # Original Series 9 (1987)
         #
-        - Cute TIPPI              # 335a
-        - Waxy WENDY              # 335b
-        - Laser RAY               # 336a
-        - Sizzlin' SID            # 336b
-        - Early BERT              # 337a
-        - Rotten ROBIN            # 337b
-        - See-SAWYER              # 338a
-        - Teeter TODD             # 338b
-        - Snot Rope HOPE          # 339a
-        - Drippy DEBBIE           # 339b
-        - Half-Baked BETTY        # 340a
-        - Rollin' ROLANDA         # 340b
-        - Juicy BRUCE             # 341a
-        - Fruity RUDY             # 341b
-        - JIM Equipment           # 342a
-        - BUDDY Builder           # 342b
-        - Con VIC                 # 343a
-        - AL Catraz               # 343b
-        - PERRY Chute             # 344a
-        - Rip CORD                # 344b
-        - CYRIL Bowl              # 345a
-        - Soggy OGGIE             # 345b
-        - Peeled PAUL             # 346a
-        - Skin LES                # 346b
-        - Dam DAN                 # 347a
-        - MIKE Dike               # 347b
-        - Plane JANE              # 348a
-        - WOODY Shop              # 348b
-        - Polluted PERCY          # 349a
-        - Barnacle BILL           # 349b
-        - MISTY Suds              # 350a
-        - AMELIA Airhead          # 350b
-        - CHERYL Peril            # 351a
-        - Deflatin' NATHAN        # 351b
-        - HERMAN Hormone          # 352a
-        - Turned-On RON           # 352b
-        - Bazooka JOANNE          # 353a
-        - Bubbly BABS             # 353b
-        - CLARK Shark             # 354a
-        - MANNY Eater             # 354b
-        - Beasty BOYD             # 355a
-        - Semi COLIN              # 355b
-        - Momma MIA               # 356a
-        - Electric SHARI          # 356b
-        - 3-DEE                   # 357a
-        - Blurry BLAIR            # 357b
-        - MAC The Knife           # 358a
-        - WADE Blade              # 358b
-        - Kerosene KERRY          # 359a
-        - Blazin' BLAKE           # 359b
-        - MARCUS Mucus            # 360a
-        - Gun BERYL               # 360b
-        - Diced BRICE             # 361a
-        - Chopped CHET            # 361b
-        - DOUG Food               # 362a
-        - NICK Yick               # 362b
-        - Slidin' SLOAN           # 363a
-        - Flamin' DAMON           # 363b
-        - Sticky RICKY            # 364a
-        - Gooey LOUIE             # 364b
-        - Shrap NELL              # 365a
-        - HANNA Granade           # 365b
-        - Low-Life LOLA           # 366a
-        - SIS Pool                # 366b
-        - Dent AL                 # 367a
-        - Fluoride IDA            # 367b
-        - NAT Splat               # 368a
-        - Jugglin' JUD            # 368b
-        - Scalped RALPH           # 369a
-        - Bone-Head FRED          # 369b
-        - Cementin' QUENTIN       # 370a
-        - Minus HANS              # 370b
-        - Grippin' GRIFFIN        # 371a
-        - REN Wrench              # 371b
-        - JACK Frost              # 372a
-        - Window PAYNE            # 372b
-        - DESI Island             # 373a
-        - Marooned MAUREEN        # 373b
-        - Swiss KRIS              # 374a
-        - Cheesy CHANDRA          # 374b
-        - Trap DORA               # 375a
-        - Rear View MYRA          # 375b
-        - Retchin' GRETCHEN       # 376a
-        - ill JILL                # 376b
-        - Closet CLYDE            # 377a
-        - Hooked Howie            # 377b
-        - Empty EMMY              # 378a
-        - Ragged AGGIE            # 378b
+        - id: OS9
+          name: Original Series 9
+          year: 1987
+          cards:
+            - id: 335a
+              name: Cute TIPPI
+            - id: 335b
+              name: Waxy WENDY
+            - id: 336a
+              name: Laser RAY
+            - id: 336b
+              name: Sizzlin' SID
+            - id: 337a
+              name: Early BERT
+            - id: 337b
+              name: Rotten ROBIN
+            - id: 338a
+              name: See-SAWYER
+            - id: 338b
+              name: Teeter TODD
+            - id: 339a
+              name: Snot Rope HOPE
+            - id: 339b
+              name: Drippy DEBBIE
+            - id: 340a
+              name: Half-Baked BETTY
+            - id: 340b
+              name: Rollin' ROLANDA
+            - id: 341a
+              name: Juicy BRUCE
+            - id: 341b
+              name: Fruity RUDY
+            - id: 342a
+              name: JIM Equipment
+            - id: 342b
+              name: BUDDY Builder
+            - id: 343a
+              name: Con VIC
+            - id: 343b
+              name: AL Catraz
+            - id: 344a
+              name: PERRY Chute
+            - id: 344b
+              name: Rip CORD
+            - id: 345a
+              name: CYRIL Bowl
+            - id: 345b
+              name: Soggy OGGIE
+            - id: 346a
+              name: Peeled PAUL
+            - id: 346b
+              name: Skin LES
+            - id: 347a
+              name: Dam DAN
+            - id: 347b
+              name: MIKE Dike
+            - id: 348a
+              name: Plane JANE
+            - id: 348b
+              name: WOODY Shop
+            - id: 349a
+              name: Polluted PERCY
+            - id: 349b
+              name: Barnacle BILL
+            - id: 350a
+              name: MISTY Suds
+            - id: 350b
+              name: AMELIA Airhead
+            - id: 351a
+              name: CHERYL Peril
+            - id: 351b
+              name: Deflatin' NATHAN
+            - id: 352a
+              name: HERMAN Hormone
+            - id: 352b
+              name: Turned-On RON
+            - id: 353a
+              name: Bazooka JOANNE
+            - id: 353b
+              name: Bubbly BABS
+            - id: 354a
+              name: CLARK Shark
+            - id: 354b
+              name: MANNY Eater
+            - id: 355a
+              name: Beasty BOYD
+            - id: 355b
+              name: Semi COLIN
+            - id: 356a
+              name: Momma MIA
+            - id: 356b
+              name: Electric SHARI
+            - id: 357a
+              name: 3-DEE
+            - id: 357b
+              name: Blurry BLAIR
+            - id: 358a
+              name: MAC The Knife
+            - id: 358b
+              name: WADE Blade
+            - id: 359a
+              name: Kerosene KERRY
+            - id: 359b
+              name: Blazin' BLAKE
+            - id: 360a
+              name: MARCUS Mucus
+            - id: 360b
+              name: Gun BERYL
+            - id: 361a
+              name: Diced BRICE
+            - id: 361b
+              name: Chopped CHET
+            - id: 362a
+              name: DOUG Food
+            - id: 362b
+              name: NICK Yick
+            - id: 363a
+              name: Slidin' SLOAN
+            - id: 363b
+              name: Flamin' DAMON
+            - id: 364a
+              name: Sticky RICKY
+            - id: 364b
+              name: Gooey LOUIE
+            - id: 365a
+              name: Shrap NELL
+            - id: 365b
+              name: HANNA Granade
+            - id: 366a
+              name: Low-Life LOLA
+            - id: 366b
+              name: SIS Pool
+            - id: 367a
+              name: Dent AL
+            - id: 367b
+              name: Fluoride IDA
+            - id: 368a
+              name: NAT Splat
+            - id: 368b
+              name: Jugglin' JUD
+            - id: 369a
+              name: Scalped RALPH
+            - id: 369b
+              name: Bone-Head FRED
+            - id: 370a
+              name: Cementin' QUENTIN
+            - id: 370b
+              name: Minus HANS
+            - id: 371a
+              name: Grippin' GRIFFIN
+            - id: 371b
+              name: REN Wrench
+            - id: 372a
+              name: JACK Frost
+            - id: 372b
+              name: Window PAYNE
+            - id: 373a
+              name: DESI Island
+            - id: 373b
+              name: Marooned MAUREEN
+            - id: 374a
+              name: Swiss KRIS
+            - id: 374b
+              name: Cheesy CHANDRA
+            - id: 375a
+              name: Trap DORA
+            - id: 375b
+              name: Rear View MYRA
+            - id: 376a
+              name: Retchin' GRETCHEN
+            - id: 376b
+              name: ill JILL
+            - id: 377a
+              name: Closet CLYDE
+            - id: 377b
+              name: Hooked Howie
+            - id: 378a
+              name: Empty EMMY
+            - id: 378b
+              name: Ragged AGGIE
         #
         # Original Series 10 (1987)
         #
-        - Cute TIPPI              # 335a
-        - Waxy WENDY              # 335b
-        - Laser RAY               # 336a
-        - Sizzlin' SID            # 336b
-        - Early BERT              # 337a
-        - Rotten ROBIN            # 337b
-        - See-SAWYER              # 338a
-        - Teeter TODD             # 338b
-        - Snot Rope HOPE          # 339a
-        - Drippy DEBBIE           # 339b
-        - Half-Baked BETTY        # 340a
-        - Rollin' ROLANDA         # 340b
-        - Juicy BRUCE             # 341a
-        - Fruity RUDY             # 341b
-        - JIM Equipment           # 342a
-        - BUDDY Builder           # 342b
-        - Con VIC                 # 343a
-        - AL Catraz               # 343b
-        - PERRY Chute             # 344a
-        - Rip CORD                # 344b
-        - CYRIL Bowl              # 345a
-        - Soggy OGGIE             # 345b
-        - Peeled PAUL             # 346a
-        - Skin LES                # 346b
-        - Dam DAN                 # 347a
-        - MIKE Dike               # 347b
-        - Plane JANE              # 348a
-        - WOODY Shop              # 348b
-        - Polluted PERCY          # 349a
-        - Barnacle BILL           # 349b
-        - MISTY Suds              # 350a
-        - AMELIA Airhead          # 350b
-        - CHERYL Peril            # 351a
-        - Deflatin' NATHAN        # 351b
-        - HERMAN Hormone          # 352a
-        - Turned-On RON           # 352b
-        - Bazooka JOANNE          # 353a
-        - Bubbly BABS             # 353b
-        - CLARK Shark             # 354a
-        - MANNY Eater             # 354b
-        - Beasty BOYD             # 355a
-        - Semi COLIN              # 355b
-        - Momma MIA               # 356a
-        - Electric SHARI          # 356b
-        - 3-DEE                   # 357a
-        - Blurry BLAIR            # 357b
-        - MAC The Knife           # 358a
-        - WADE Blade              # 358b
-        - Kerosene KERRY          # 359a
-        - Blazin' BLAKE           # 359b
-        - MARCUS Mucus            # 360a
-        - Gun BERYL               # 360b
-        - Diced BRICE             # 361a
-        - Chopped CHET            # 361b
-        - DOUG Food               # 362a
-        - NICK Yick               # 362b
-        - Slidin' SLOAN           # 363a
-        - Flamin' DAMON           # 363b
-        - Sticky RICKY            # 364a
-        - Gooey LOUIE             # 364b
-        - Shrap NELL              # 365a
-        - HANNA Granade           # 365b
-        - Low-Life LOLA           # 366a
-        - SIS Pool                # 366b
-        - Dent AL                 # 367a
-        - Fluoride IDA            # 367b
-        - NAT Splat               # 368a
-        - Jugglin' JUD            # 368b
-        - Scalped RALPH           # 369a
-        - Bone-Head FRED          # 369b
-        - Cementin' QUENTIN       # 370a
-        - Minus HANS              # 370b
-        - Grippin' GRIFFIN        # 371a
-        - REN Wrench              # 371b
-        - JACK Frost              # 372a
-        - Window PAYNE            # 372b
-        - DESI Island             # 373a
-        - Marooned MAUREEN        # 373b
-        - Swiss KRIS              # 374a
-        - Cheesy CHANDRA          # 374b
-        - Trap DORA               # 375a
-        - Rear View MYRA          # 375b
-        - Retchin' GRETCHEN       # 376a
-        - ill JILL                # 376b
-        - Closet CLYDE            # 377a
-        - Hooked Howie            # 377b
-        - Empty EMMY              # 378a
-        - Ragged AGGIE            # 378b
+        - id: OS10
+          name: Original Series 10
+          year: 1987
+          cards:
+            - id: 379a
+              name: Locked DORIAN
+            - id: 379b
+              name: SIDNEY Kidney
+            - id: 380a
+              name: Vermin HERMAN
+            - id: 380b
+              name: Gullivered TRAVIS
+            - id: 381a
+              name: Ground CHUCK
+            - id: 381b
+              name: Lean JEAN
+            - id: 382a
+              name: Good-Bye HY
+            - id: 382b
+              name: Farewell MEL
+            - id: 383a
+              name: Itchy MITCH
+            - id: 383b
+              name: Raked JAKE
+            - id: 384a
+              name: Flamin' RAYMOND
+            - id: 384b
+              name: Hot TODDY
+            - id: 385a
+              name: PHIL'Er Up
+            - id: 385b
+              name: Chuckin' CHARLIE
+            - id: 386a
+              name: Snotty DOTTY
+            - id: 386b
+              name: Frozen FLO
+            - id: 387a
+              name: Fatty MADDIE
+            - id: 387b
+              name: CORA Corset
+            - id: 388a
+              name: Facey TRACIE
+            - id: 388b
+              name: Heads UPTON
+            - id: 389a
+              name: Dire RITA
+            - id: 389b
+              name: Overflow JOE
+            - id: 390a
+              name: Connecting DOTS
+            - id: 390b
+              name: Twinny VINNIE
+            - id: 391a
+              name: Glass ISAAC
+            - id: 391b
+              name: False IRIS
+            - id: 392a
+              name: ANN Chovie
+            - id: 392b
+              name: Sardine CANDICE
+            - id: 393a
+              name: JESS Express
+            - id: 393b
+              name: Choo-Choo TRINA
+            - id: 394a
+              name: BARB Wire
+            - id: 394b
+              name: Play PENNY
+            - id: 395a
+              name: Paved DAVE
+            - id: 395b
+              name: Run-Over GROVER
+            - id: 396a
+              name: Creamed GENE
+            - id: 396b
+              name: Clobbered BOB
+            - id: 397a
+              name: Cleaned Up CLINT
+            - id: 397b
+              name: Sucked Up STEFAN
+            - id: 398a
+              name: Skiin' IAN
+            - id: 398b
+              name: Sheared SHERWOOD
+            - id: 399a
+              name: Dirty FLORA
+            - id: 399b
+              name: GINA Cleaner
+            - id: 400a
+              name: Varicose WAYNE
+            - id: 400b
+              name: ELAINE Vein
+            - id: 401a
+              name: VIV E. Section
+            - id: 401b
+              name: Disect ED
+            - id: 402a
+              name: Lunchpail GAIL
+            - id: 402b
+              name: Lunchbox STU
+            - id: 403a
+              name: HUNTER Punter
+            - id: 403b
+              name: Fractured FRANCIS
+            - id: 404a
+              name: Airy MARY
+            - id: 404b
+              name: Hissy MISSIE
+            - id: 405a
+              name: Over-Ripe MELANIE
+            - id: 405b
+              name: WALTER Melon
+            - id: 406a
+              name: Shopping CARTER
+            - id: 406b
+              name: Super MARCUS
+            - id: 407a
+              name: Cracked SHELDON
+            - id: 407b
+              name: WALLY Walnut
+            - id: 408a
+              name: Lickin' LEON
+            - id: 408b
+              name: Rat-Sucker RANDALL
+            - id: 409a
+              name: Tiltin' MILTON
+            - id: 409b
+              name: Amazing MASON
+            - id: 410a
+              name: Scratching Pole PAUL
+            - id: 410b
+              name: Clawed CLAUDE
+            - id: 411a
+              name: VAN Pire
+            - id: 411b
+              name: BUD Sucker
+            - id: 412a
+              name: Mixed-Up TRIXIE
+            - id: 412b
+              name: Doughy CHLOE
+            - id: 413a
+              name: Barnyard BARNEY
+            - id: 413b
+              name: DICK Hick
+            - id: 414a
+              name: Umbilical COURTNEY
+            - id: 414b
+              name: Yo Yolanda
+            - id: 415a
+              name: Erased ERICA
+            - id: 415b
+              name: Wiped Out WINNIE
+            - id: 416a
+              name: Shootin' NEWTON
+            - id: 416b
+              name: SHERMAN Tank
+            - id: 417a
+              name: Hangin' HARRIET
+            - id: 417b
+              name: Swingin' SOPHIE
         #
         # Original Series 11 (1987)
         #
-        - LUCY Lock-It            # 418a
-        - Shut Up SHIRLEY         # 418b
-        - MEG-A-Volt              # 419a
-        - Charged MARGE           # 419b
-        - Spanked HANK            # 420a
-        - Spikey SONDRA           # 420b
-        - Groovy GREG             # 421a
-        - Combin' HARRY           # 421b
-        - SHERI Cola              # 422a
-        - All Night DINAH         # 422b
-        - Hungry IVAN             # 423a
-        - SY Sty                  # 423b
-        - Rainy STORM             # 424a
-        - Lightning LINDA         # 424b
-        - DENNY Saur              # 425a
-        - RIP Tile                # 425b
-        - Quenching QUINCY        # 426a
-        - Squirtin' BURTON        # 426b
-        - Ripped FLETCH           # 427a
-        - Taped TATE              # 427b
-        - LOTTA Litter            # 428a
-        - Garbage Mouch GILBERT   # 428b
-        - Laundry MATT            # 429a
-        - Drip-Dry DRU            # 429b
-        - Taste BUD               # 430a
-        - Salivatin' SAL          # 430b
-        - Pollutin' NEWTON        # 431a
-        - Empty Head JED          # 431b
-        - Packed MAC              # 432a
-        - SUE Case                # 432b
-        - Porcelain LYNN          # 433a
-        - ARLENE Latrine          # 433b
-        - HOLLY Daze              # 434a
-        - Joyous NOEL             # 434b
-        - London BRIDGET          # 435a
-        - Toxic WES               # 435b
-        - Scaldin' ALDEN          # 436a
-        - Steamy MIMI             # 436b
-        - Sliced BRAD             # 437a
-        - Dead LEE                # 437b
-        - HALLIE Ween             # 438a
-        - Trick or TRICIA         # 438b
-        - JACK Splat              # 439a
-        - Abstract ART            # 439b
-        - BERT Squirt             # 440a
-        - FRITZIE Zits            # 440b
-        - Loose LEIF              # 441a
-        - Composition BOOKER      # 441b
-        - Rugged ROY              # 442a
-        - Bare BARRY              # 442b
-        - Wet WHIT                # 443a
-        - Wee-Wee WILLIE          # 443b
-        - Fairy Tale DALE         # 444a
-        - Nose Drip SKIP          # 444b
-        - COLETTE Coldcut         # 445a
-        - ELLIE Deli              # 445b
-        - Mean MARLENE            # 446a
-        - Punk ROCKY              # 446b
-        - Gushing GARFIELD        # 447a
-        - Drained BLAINE          # 447b
-        - Touch TONI              # 448a
-        - Phoney JONI             # 448b
-        - BERT Food               # 449a
-        - Gutsy GUS               # 449b
-        - IKE Spike               # 450a
-        - MASON Mace              # 450b
-        - Destroyed LLOYD         # 451a
-        - Tinsel TIM              # 451b
-        - Impaled GAIL            # 452a
-        - Magic WANDA             # 452b
-        - Dead End KIT            # 453a
-        - Slidin' CLYDE           # 453b
-        - Lynched LYNDON          # 454a
-        - BRUCE Noose             # 454b
-        - Charred COLE            # 455a
-        - Deviled EGBERT          # 455b
-        - Split CORD              # 456a
-        - WILLIAM Won't Tell      # 456b
-        - SALLY Suction           # 457a
-        - Teethin' TRINA          # 457b
-        - Dental Hy GENE          # 458a
-        - RUDY Canal              # 458b
-        - Vomi-TED                # 459a
-        - Juicy JULES             # 459b
+        - id: OS11
+          name: Original Series 11
+          year: 1987
+          cards:
+            - id: 418a
+              name: LUCY Lock-It
+            - id: 418b
+              name: Shut Up SHIRLEY
+            - id: 419a
+              name: MEG-A-Volt
+            - id: 419b
+              name: Charged MARGE
+            - id: 420a
+              name: Spanked HANK
+            - id: 420b
+              name: Spikey SONDRA
+            - id: 421a
+              name: Groovy GREG
+            - id: 421b
+              name: Combin' HARRY
+            - id: 422a
+              name: SHERI Cola
+            - id: 422b
+              name: All Night DINAH
+            - id: 423a
+              name: Hungry IVAN
+            - id: 423b
+              name: SY Sty
+            - id: 424a
+              name: Rainy STORM
+            - id: 424b
+              name: Lightning LINDA
+            - id: 425a
+              name: DENNY Saur
+            - id: 425b
+              name: RIP Tile
+            - id: 426a
+              name: Quenching QUINCY
+            - id: 426b
+              name: Squirtin' BURTON
+            - id: 427a
+              name: Ripped FLETCH
+            - id: 427b
+              name: Taped TATE
+            - id: 428a
+              name: LOTTA Litter
+            - id: 428b
+              name: Garbage Mouch GILBERT
+            - id: 429a
+              name: Laundry MATT
+            - id: 429b
+              name: Drip-Dry DRU
+            - id: 430a
+              name: Taste BUD
+            - id: 430b
+              name: Salivatin' SAL
+            - id: 431a
+              name: Pollutin' NEWTON
+            - id: 431b
+              name: Empty Head JED
+            - id: 432a
+              name: Packed MAC
+            - id: 432b
+              name: SUE Case
+            - id: 433a
+              name: Porcelain LYNN
+            - id: 433b
+              name: ARLENE Latrine
+            - id: 434a
+              name: HOLLY Daze
+            - id: 434b
+              name: Joyous NOEL
+            - id: 435a
+              name: London BRIDGET
+            - id: 435b
+              name: Toxic WES
+            - id: 436a
+              name: Scaldin' ALDEN
+            - id: 436b
+              name: Steamy MIMI
+            - id: 437a
+              name: Sliced BRAD
+            - id: 437b
+              name: Dead LEE
+            - id: 438a
+              name: HALLIE Ween
+            - id: 438b
+              name: Trick or TRICIA
+            - id: 439a
+              name: JACK Splat
+            - id: 439b
+              name: Abstract ART
+            - id: 440a
+              name: BERT Squirt
+            - id: 440b
+              name: FRITZIE Zits
+            - id: 441a
+              name: Loose LEIF
+            - id: 441b
+              name: Composition BOOKER
+            - id: 442a
+              name: Rugged ROY
+            - id: 442b
+              name: Bare BARRY
+            - id: 443a
+              name: Wet WHIT
+            - id: 443b
+              name: Wee-Wee WILLIE
+            - id: 444a
+              name: Fairy Tale DALE
+            - id: 444b
+              name: Nose Drip SKIP
+            - id: 445a
+              name: COLETTE Coldcut
+            - id: 445b
+              name: ELLIE Deli
+            - id: 446a
+              name: Mean MARLENE
+            - id: 446b
+              name: Punk ROCKY
+            - id: 447a
+              name: Gushing GARFIELD
+            - id: 447b
+              name: Drained BLAINE
+            - id: 448a
+              name: Touch TONI
+            - id: 448b
+              name: Phoney JONI
+            - id: 449a
+              name: BERT Food
+            - id: 449b
+              name: Gutsy GUS
+            - id: 450a
+              name: IKE Spike
+            - id: 450b
+              name: MASON Mace
+            - id: 451a
+              name: Destroyed LLOYD
+            - id: 451b
+              name: Tinsel TIM
+            - id: 452a
+              name: Impaled GAIL
+            - id: 452b
+              name: Magic WANDA
+            - id: 453a
+              name: Dead End KIT
+            - id: 453b
+              name: Slidin' CLYDE
+            - id: 454a
+              name: Lynched LYNDON
+            - id: 454b
+              name: BRUCE Noose
+            - id: 455a
+              name: Charred COLE
+            - id: 455b
+              name: Deviled EGBERT
+            - id: 456a
+              name: Split CORD
+            - id: 456b
+              name: WILLIAM Won't Tell
+            - id: 457a
+              name: SALLY Suction
+            - id: 457b
+              name: Teethin' TRINA
+            - id: 458a
+              name: Dental Hy GENE
+            - id: 458b
+              name: RUDY Canal
+            - id: 459a
+              name: Vomi-TED
+            - id: 459b
+              name: Juicy JULES
         #
         # Original Series 12 (1988)
         #
-        - Ball 'N SHANE           # 460a
-        - Hard ROCKY              # 460b
-        - MARA Thon               # 461a
-        - Racy LACEY              # 461b
-        - Half PRICE              # 462a
-        - Checked-Out CHET        # 462b
-        - Phooey To HUGH          # 463a
-        - Razzin' ROSS            # 463b
-        - Tongue Tied TEDDY       # 464a
-        - Dressed To KILLIAN      # 464b
-        - Upsy DAISYS             # 465a
-        - Barfy BARBIES           # 465b
-        - Seasick CECIL           # 466a
-        - Dinner At EYTAN         # 466b
-        - Tongue In CHICO         # 467a
-        - NICK Lick               # 467b
-        - Mummified CLYDE         # 468a
-        - TWLYA Paper             # 468b
-        - Upset TOMMY             # 469a
-        - Tub O' LARS             # 469b
-        - Quick SANDY             # 470a
-        - ABRAHAM Sinkin'         # 470b
-        - Freestyle KYLE          # 471a
-        - Rad ROD                 # 471b
-        - WALTER Fall             # 472a
-        - RONNY Nose              # 472b
-        - Heavy MERYL             # 473a
-        - One-Night STAN          # 473b
-        - Sole Food SOL           # 474a
-        - Gooey STUEY             # 474b
-        - Road-Kill WILL          # 475a
-        - Stop SY                 # 475b
-        - Barf Band BEN           # 476a
-        - Off Key LEE             # 476b
-        - INGRID Inc.             # 477a
-        - Smokestack ZACH         # 477b
-        - Bizarre LAMAR           # 478a
-        - Rearranged RAYMOND      # 478b
-        - Gulpin' GABE            # 479a
-        - Over Eatin' ETHAN       # 479b
-        - ROBBY Rubbish           # 480a
-        - Garbage Pail KITTY      # 480b
-        - Car-Stick KARLA         # 481a
-        - Cruisin' SUSAN          # 481b
-        - Lickin' LEO             # 482a
-        - Lappin' LENNY           # 482b
-        - Seedy SYDNEY            # 483a
-        - Fertile MYRTLE          # 483b
-        - TIM Can                 # 484a
-        - RUSTY Bolts             # 484b
-        - 12 O'Clock HY           # 485a
-        - Midnight DWIGHT         # 485b
-        - Chiseler CHAD           # 486a
-        - JULIUS Sneezer          # 486b
-        - Dead Letter DEBBIE      # 487a
-        - Maimed MAMIE            # 487b
-        - TELLY Scope             # 488a
-        - Peek-A-Boo BEAU         # 488b
-        - Irate IRA               # 489a
-        - Angry ANNIE             # 489b
-        - Kinky KRISTINE          # 490a
-        - Knot The NORM           # 490b
-        - Sunken TREVOR           # 491a
-        - Anchored HANK           # 491b
-        - CORY On The Cob         # 492a
-        - Hot Buttered CORINNE    # 492b
-        - Peanut Butter 'N KELLY  # 493a
-        - Out-To-Lunch LANCE      # 493b
-        - MITCH Match             # 494a
-        - Hot DOT                 # 494b
-        - Gloppy GLEN             # 495a
-        - Slop Top TODD           # 495b
-        - ALLISON Waterland       # 496a
-        - JON Pond                # 496b
-        - Lame LEM                # 497a
-        - EDWARD Hopper           # 497b
-        - Rolls ROYCE             # 498a
-        - Piston PETE             # 498b
-        - Abandoned AMANDA        # 499a
-        - Please Give Me A HOMER  # 499b
-        - Winkless WALLY          # 500a
-        - Sight LES               # 500b
+        - id: OS12
+          name: Original Series 12
+          year: 1988
+          cards:
+            - id: 460a
+              name: Ball 'N SHANE
+            - id: 460b
+              name: Hard ROCKY
+            - id: 461a
+              name: MARA Thon
+            - id: 461b
+              name: Racy LACEY
+            - id: 462a
+              name: Half PRICE
+            - id: 462b
+              name: Checked-Out CHET
+            - id: 463a
+              name: Phooey To HUGH
+            - id: 463b
+              name: Razzin' ROSS
+            - id: 464a
+              name: Tongue Tied TEDDY
+            - id: 464b
+              name: Dressed To KILLIAN
+            - id: 465a
+              name: Upsy DAISYS
+            - id: 465b
+              name: Barfy BARBIES
+            - id: 466a
+              name: Seasick CECIL
+            - id: 466b
+              name: Dinner At EYTAN
+            - id: 467a
+              name: Tongue In CHICO
+            - id: 467b
+              name: NICK Lick
+            - id: 468a
+              name: Mummified CLYDE
+            - id: 468b
+              name: TWLYA Paper
+            - id: 469a
+              name: Upset TOMMY
+            - id: 469b
+              name: Tub O' LARS
+            - id: 470a
+              name: Quick SANDY
+            - id: 470b
+              name: ABRAHAM Sinkin'
+            - id: 471a
+              name: Freestyle KYLE
+            - id: 471b
+              name: Rad ROD
+            - id: 472a
+              name: WALTER Fall
+            - id: 472b
+              name: RONNY Nose
+            - id: 473a
+              name: Heavy MERYL
+            - id: 473b
+              name: One-Night STAN
+            - id: 474a
+              name: Sole Food SOL
+            - id: 474b
+              name: Gooey STUEY
+            - id: 475a
+              name: Road-Kill WILL
+            - id: 475b
+              name: Stop SY
+            - id: 476a
+              name: Barf Band BEN
+            - id: 476b
+              name: Off Key LEE
+            - id: 477a
+              name: INGRID Inc.
+            - id: 477b
+              name: Smokestack ZACH
+            - id: 478a
+              name: Bizarre LAMAR
+            - id: 478b
+              name: Rearranged RAYMOND
+            - id: 479a
+              name: Gulpin' GABE
+            - id: 479b
+              name: Over Eatin' ETHAN
+            - id: 480a
+              name: ROBBY Rubbish
+            - id: 480b
+              name: Garbage Pail KITTY
+            - id: 481a
+              name: Car-Stick KARLA
+            - id: 481b
+              name: Cruisin' SUSAN
+            - id: 482a
+              name: Lickin' LEO
+            - id: 482b
+              name: Lappin' LENNY
+            - id: 483a
+              name: Seedy SYDNEY
+            - id: 483b
+              name: Fertile MYRTLE
+            - id: 484a
+              name: TIM Can
+            - id: 484b
+              name: RUSTY Bolts
+            - id: 485a
+              name: 12 O'Clock HY
+            - id: 485b
+              name: Midnight DWIGHT
+            - id: 486a
+              name: Chiseler CHAD
+            - id: 486b
+              name: JULIUS Sneezer
+            - id: 487a
+              name: Dead Letter DEBBIE
+            - id: 487b
+              name: Maimed MAMIE
+            - id: 488a
+              name: TELLY Scope
+            - id: 488b
+              name: Peek-A-Boo BEAU
+            - id: 489a
+              name: Irate IRA
+            - id: 489b
+              name: Angry ANNIE
+            - id: 490a
+              name: Kinky KRISTINE
+            - id: 490b
+              name: Knot The NORM
+            - id: 491a
+              name: Sunken TREVOR
+            - id: 491b
+              name: Anchored HANK
+            - id: 492a
+              name: CORY On The Cob
+            - id: 492b
+              name: Hot Buttered CORINNE
+            - id: 493a
+              name: Peanut Butter 'N KELLY
+            - id: 493b
+              name: Out-To-Lunch LANCE
+            - id: 494a
+              name: MITCH Match
+            - id: 494b
+              name: Hot DOT
+            - id: 495a
+              name: Gloppy GLEN
+            - id: 495b
+              name: Slop Top TODD
+            - id: 496a
+              name: ALLISON Waterland
+            - id: 496b
+              name: JON Pond
+            - id: 497a
+              name: Lame LEM
+            - id: 497b
+              name: EDWARD Hopper
+            - id: 498a
+              name: Rolls ROYCE
+            - id: 498b
+              name: Piston PETE
+            - id: 499a
+              name: Abandoned AMANDA
+            - id: 499b
+              name: Please Give Me A HOMER
+            - id: 500a
+              name: Winkless WALLY
+            - id: 500b
+              name: Sight LES
         #
         # Original Series 13 (1988)
         #
-        - Missing MARCIA          # 501a
-        - Hidden HEIDI            # 501b
-        - Gory LAURIE             # 502a
-        - Undead NED              # 502b
-        - LOUISE Trapeze          # 503a
-        - 3-Ring CYRIL            # 503b
-        - COOPER Scooper          # 504a
-        - JESS Desserts           # 504b
-        - Sucked CHUCK            # 505a
-        - Unsani-TERRY            # 505b
-        - Tire JACK               # 506a
-        - Crankin' FRANKLIN       # 506b
-        - Target PRENTICE         # 507a
-        - Blow HARDY              # 507b
-        - BARRY Bomber            # 508a
-        - Hi-Flyin' BRYAN         # 508b
-        - Misfortune COOKIE       # 509a
-        - Chow MAYNARD            # 509b
-        - Grim KIM                # 510a
-        - TAFFY Pull              # 510b
-        - Puffy BUFFY             # 511a
-        - Busty DUSTY             # 511b
-        - SEYMOUR Barf            # 512a
-        - KENT Stand It           # 512b
-        - Repeatin' PETE          # 513a
-        - Round ROBYNS            # 513b
-        - Ampu-TED                # 514a
-        - HANS Off                # 514b
-        - Wretched RICHARD        # 515a
-        - BILLY Ache              # 515b
-        - Bubblin' LYNN           # 516a
-        - Heavin' HEATHER         # 516b
-        - CHESTER Drawers         # 517a
-        - NATTY Dresser           # 517b
-        - Barfin' MARVIN          # 518a
-        - Over ETAN               # 518b
-        - Paddlin' ADELINE        # 519a
-        - RIKKI Racket            # 519b
-        - Sprinkling JOSE         # 520a
-        - JAY Spray               # 520b
-        - DEE Odorant             # 521a
-        - STAN Can                # 521b
-        - Bloody MURRAY           # 522a
-        - JUAN For The Road       # 522b
-        - Meltdown MERYL          # 523a
-        - Steamed PIPER           # 523b
-        - Pop CONNIE              # 524a
-        - POPPY Corn              # 524b
-        - Cocktail DALE           # 525a
-        - Party-Pooper PATTY      # 525b
-        - Ripped KIP              # 526a
-        - Torn SHAUN              # 526b
-        - Toilet BO               # 527a
-        - Butt-Bit BRANDON        # 527b
-        - DANIEL Prune            # 528a
-        - Dried-Fruit NEWT        # 528b
-        - Corkscrewed DREW        # 529a
-        - Champ-Pain DWAYNE       # 529b
-        - Fun GUS                 # 530a
-        - Warty MORTY             # 530b
-        - Stormy SKYE             # 531a
-        - CLAUDE Burst            # 531b
-        - Fertile LIZA            # 532a
-        - HORACE Manure           # 532b
-        - Jiggley JENNIFER        # 533a
-        - Spooned JUNE            # 533b
-        - JAYNE Drain             # 534a
-        - EDA Mouthful            # 534b
-        - HOWIE Hanging           # 535a
-        - Rush Hour RUSS          # 535b
-        - Scrambled AGGIE         # 536a
-        - SONNY Side Up           # 536b
-        - MIRIAM Migraine         # 537a
-        - Head BUSTER             # 537b
-        - Cat-Cradle CATHY        # 538a
-        - Gooey GWEN              # 538b
-        - John JOHN               # 539a
-        - All Wet WALT            # 539b
-        - ill WINDSOR             # 540a
-        - HORATIO Hornblower      # 540b
+        - id: OS13
+          name: Original Series 13
+          year: 1988
+          cards:
+            - id: 501a
+              name: Missing MARCIA
+            - id: 501b
+              name: Hidden HEIDI
+            - id: 502a
+              name: Gory LAURIE
+            - id: 502b
+              name: Undead NED
+            - id: 503a
+              name: LOUISE Trapeze
+            - id: 503b
+              name: 3-Ring CYRIL
+            - id: 504a
+              name: COOPER Scooper
+            - id: 504b
+              name: JESS Desserts
+            - id: 505a
+              name: Sucked CHUCK
+            - id: 505b
+              name: Unsani-TERRY
+            - id: 506a
+              name: Tire JACK
+            - id: 506b
+              name: Crankin' FRANKLIN
+            - id: 507a
+              name: Target PRENTICE
+            - id: 507b
+              name: Blow HARDY
+            - id: 508a
+              name: BARRY Bomber
+            - id: 508b
+              name: Hi-Flyin' BRYAN
+            - id: 509a
+              name: Misfortune COOKIE
+            - id: 509b
+              name: Chow MAYNARD
+            - id: 510a
+              name: Grim KIM
+            - id: 510b
+              name: TAFFY Pull
+            - id: 511a
+              name: Puffy BUFFY
+            - id: 511b
+              name: Busty DUSTY
+            - id: 512a
+              name: SEYMOUR Barf
+            - id: 512b
+              name: KENT Stand It
+            - id: 513a
+              name: Repeatin' PETE
+            - id: 513b
+              name: Round ROBYNS
+            - id: 514a
+              name: Ampu-TED
+            - id: 514b
+              name: HANS Off
+            - id: 515a
+              name: Wretched RICHARD
+            - id: 515b
+              name: BILLY Ache
+            - id: 516a
+              name: Bubblin' LYNN
+            - id: 516b
+              name: Heavin' HEATHER
+            - id: 517a
+              name: CHESTER Drawers
+            - id: 517b
+              name: NATTY Dresser
+            - id: 518a
+              name: Barfin' MARVIN
+            - id: 518b
+              name: Over ETAN
+            - id: 519a
+              name: Paddlin' ADELINE
+            - id: 519b
+              name: RIKKI Racket
+            - id: 520a
+              name: Sprinkling JOSE
+            - id: 520b
+              name: JAY Spray
+            - id: 521a
+              name: DEE Odorant
+            - id: 521b
+              name: STAN Can
+            - id: 522a
+              name: Bloody MURRAY
+            - id: 522b
+              name: JUAN For The Road
+            - id: 523a
+              name: Meltdown MERYL
+            - id: 523b
+              name: Steamed PIPER
+            - id: 524a
+              name: Pop CONNIE
+            - id: 524b
+              name: POPPY Corn
+            - id: 525a
+              name: Cocktail DALE
+            - id: 525b
+              name: Party-Pooper PATTY
+            - id: 526a
+              name: Ripped KIP
+            - id: 526b
+              name: Torn SHAUN
+            - id: 527a
+              name: Toilet BO
+            - id: 527b
+              name: Butt-Bit BRANDON
+            - id: 528a
+              name: DANIEL Prune
+            - id: 528b
+              name: Dried-Fruit NEWT
+            - id: 529a
+              name: Corkscrewed DREW
+            - id: 529b
+              name: Champ-Pain DWAYNE
+            - id: 530a
+              name: Fun GUS
+            - id: 530b
+              name: Warty MORTY
+            - id: 531a
+              name: Stormy SKYE
+            - id: 531b
+              name: CLAUDE Burst
+            - id: 532a
+              name: Fertile LIZA
+            - id: 532b
+              name: HORACE Manure
+            - id: 533a
+              name: Jiggley JENNIFER
+            - id: 533b
+              name: Spooned JUNE
+            - id: 534a
+              name: JAYNE Drain
+            - id: 534b
+              name: EDA Mouthful
+            - id: 535a
+              name: HOWIE Hanging
+            - id: 535b
+              name: Rush Hour RUSS
+            - id: 536a
+              name: Scrambled AGGIE
+            - id: 536b
+              name: SONNY Side Up
+            - id: 537a
+              name: MIRIAM Migraine
+            - id: 537b
+              name: Head BUSTER
+            - id: 538a
+              name: Cat-Cradle CATHY
+            - id: 538b
+              name: Gooey GWEN
+            - id: 539a
+              name: John JOHN
+            - id: 539b
+              name: All Wet WALT
+            - id: 540a
+              name: ill WINDSOR
+            - id: 540b
+              name: HORATIO Hornblower
         #
         # Original Series 14 (1988)
         #
-        - ROCCO Socko             # 541a
-        - Destroyed BOYD          # 541b
-        - Jugglin' JULIAN         # 542a
-        - Up In The AARON         # 542b
-        - Undersea LEE            # 543a
-        - Sailin' WAYLON          # 543b
-        - Zipped KIP              # 544a
-        - JACK Tracks             # 544b
-        - ARTIE Party             # 545a
-        - Driftin' CLIFTON        # 545b
-        - Modern MARLISE          # 546a
-        - Abstract ABBY           # 546b
-        - Cuckoo CLARK            # 547a
-        - Bile LYLE               # 547b
-        - WALT To Wall            # 548a
-        - Nailed NOEL             # 548b
-        - SHANNON Cannon          # 549a
-        - Bomb SHELLY             # 549b
-        - Violent VIOLA           # 550a
-        - Sawin' SUSAN            # 550b
-        - Rah Rah RONI            # 551a
-        - Sis Boom BONNIE         # 551b
-        - Half WHIT               # 552a
-        - Lead-Head NED           # 552b
-        - Cold Sore LENORE        # 553a
-        - Kissy MISSY             # 553b
-        - RUFUS Refuse            # 554a
-        - Cleaned Up PARKER       # 554b
-        - Alien ED                # 555a
-        - Phone HOMER             # 555b
-        - Mothy MARTHA            # 556a
-        - Nailed NATALIE          # 556b
-        - STU Brew                # 557a
-        - Empty KEN               # 557b
-        - HANS Off                # 558a
-        - Numb NATE               # 558b
-        - DWAYNE Stain            # 559a
-        - Spilled GIL             # 559b
-        - Lappin' LARRY           # 560a
-        - Guzzlin' GUY            # 560b
-        - MARSH Room              # 561a
-        - TODD Stool              # 561b
-        - Post No BILL            # 562a
-        - Bulletin BORIS          # 562b
-        - Potato CHIP             # 563a
-        - DICK Tater              # 563b
-        - MILLIE Meter            # 564a
-        - ASA Rule                # 564b
-        - Easter BONNIE           # 565a
-        - Hard-Boiled MEG         # 565b
-        - Swarmin' ARMIN          # 566a
-        - Infested LESTER         # 566b
-        - Doomsday DOM            # 567a
-        - A-Bomb TOM              # 567b
-        - Glut TONY               # 568a
-        - PHIL Swill              # 568b
-        - Cut CURT                # 569a
-        - Electric FANNY          # 569b
-        - AVA Shaver              # 570a
-        - HOLLY Hormone           # 570b
-        - Rubber ROBERT           # 571a
-        - Inside OTTO             # 571b
-        - Fake JAKE               # 572a
-        - Sham SAM                # 572b
-        - Snotwich SANDRA         # 573a
-        - HEDDA Spreader          # 573b
-        - Shattered SHELL         # 574a
-        - Fractured FRANK         # 574b
-        - Brain Drain BRIAN       # 575a
-        - Pick A WINNIE           # 575b
-        - Croaked KAYE            # 576a
-        - Sporty MORTY            # 576b
-        - Sown SONYA              # 577a
-        - Stitchin' TYNE          # 577b
-        - Dial-A-TWYLA            # 578a
-        - Phone BELLA             # 578b
-        - JUDD Cud                # 579a
-        - Spearmint MINDY         # 579b
-        - Burnt-Out BRETT         # 580a
-        - BURNE Toast             # 580b
+        - id: OS14
+          name: Original Series 14
+          year: 1988
+          cards:
+            - id: 541a
+              name: ROCCO Socko
+            - id: 541b
+              name: Destroyed BOYD
+            - id: 542a
+              name: Jugglin' JULIAN
+            - id: 542b
+              name: Up In The AARON
+            - id: 543a
+              name: Undersea LEE
+            - id: 543b
+              name: Sailin' WAYLON
+            - id: 544a
+              name: Zipped KIP
+            - id: 544b
+              name: JACK Tracks
+            - id: 545a
+              name: ARTIE Party
+            - id: 545b
+              name: Driftin' CLIFTON
+            - id: 546a
+              name: Modern MARLISE
+            - id: 546b
+              name: Abstract ABBY
+            - id: 547a
+              name: Cuckoo CLARK
+            - id: 547b
+              name: Bile LYLE
+            - id: 548a
+              name: WALT To Wall
+            - id: 548b
+              name: Nailed NOEL
+            - id: 549a
+              name: SHANNON Cannon
+            - id: 549b
+              name: Bomb SHELLY
+            - id: 550a
+              name: Violent VIOLA
+            - id: 550b
+              name: Sawin' SUSAN
+            - id: 551a
+              name: Rah Rah RONI
+            - id: 551b
+              name: Sis Boom BONNIE
+            - id: 552a
+              name: Half WHIT
+            - id: 552b
+              name: Lead-Head NED
+            - id: 553a
+              name: Cold Sore LENORE
+            - id: 553b
+              name: Kissy MISSY
+            - id: 554a
+              name: RUFUS Refuse
+            - id: 554b
+              name: Cleaned Up PARKER
+            - id: 555a
+              name: Alien ED
+            - id: 555b
+              name: Phone HOMER
+            - id: 556a
+              name: Mothy MARTHA
+            - id: 556b
+              name: Nailed NATALIE
+            - id: 557a
+              name: STU Brew
+            - id: 557b
+              name: Empty KEN
+            - id: 558a
+              name: HANS Off
+            - id: 558b
+              name: Numb NATE
+            - id: 559a
+              name: DWAYNE Stain
+            - id: 559b
+              name: Spilled GIL
+            - id: 560a
+              name: Lappin' LARRY
+            - id: 560b
+              name: Guzzlin' GUY
+            - id: 561a
+              name: MARSH Room
+            - id: 561b
+              name: TODD Stool
+            - id: 562a
+              name: Post No BILL
+            - id: 562b
+              name: Bulletin BORIS
+            - id: 563a
+              name: Potato CHIP
+            - id: 563b
+              name: DICK Tater
+            - id: 564a
+              name: MILLIE Meter
+            - id: 564b
+              name: ASA Rule
+            - id: 565a
+              name: Easter BONNIE
+            - id: 565b
+              name: Hard-Boiled MEG
+            - id: 566a
+              name: Swarmin' ARMIN
+            - id: 566b
+              name: Infested LESTER
+            - id: 567a
+              name: Doomsday DOM
+            - id: 567b
+              name: A-Bomb TOM
+            - id: 568a
+              name: Glut TONY
+            - id: 568b
+              name: PHIL Swill
+            - id: 569a
+              name: Cut CURT
+            - id: 569b
+              name: Electric FANNY
+            - id: 570a
+              name: AVA Shaver
+            - id: 570b
+              name: HOLLY Hormone
+            - id: 571a
+              name: Rubber ROBERT
+            - id: 571b
+              name: Inside OTTO
+            - id: 572a
+              name: Fake JAKE
+            - id: 572b
+              name: Sham SAM
+            - id: 573a
+              name: Snotwich SANDRA
+            - id: 573b
+              name: HEDDA Spreader
+            - id: 574a
+              name: Shattered SHELL
+            - id: 574b
+              name: Fractured FRANK
+            - id: 575a
+              name: Brain Drain BRIAN
+            - id: 575b
+              name: Pick A WINNIE
+            - id: 576a
+              name: Croaked KAYE
+            - id: 576b
+              name: Sporty MORTY
+            - id: 577a
+              name: Sown SONYA
+            - id: 577b
+              name: Stitchin' TYNE
+            - id: 578a
+              name: Dial-A-TWYLA
+            - id: 578b
+              name: Phone BELLA
+            - id: 579a
+              name: JUDD Cud
+            - id: 579b
+              name: Spearmint MINDY
+            - id: 580a
+              name: Burnt-Out BRETT
+            - id: 580b
+              name: BURNE Toast
         #
         # Original Series 15 (1988)
         #
-        - SHEL Game               # 581a
-        - 3-Card MONTE            # 581b
-        - Take-Out DINAH          # 582a
-        - Chow MAME               # 582b
-        - LYLE Tile               # 583a
-        - HARRY Glyph             # 583b
-        - Slimy HYMIE             # 584a
-        - Crawlin' ROLLIN         # 584b
-        - Picky NICK              # 585a
-        - BEULAH Ghoul            # 585b
-        - PETER Cheater           # 586a
-        - DEAN List               # 586b
-        - CORNELIA Flake          # 587a
-        - MALA Nutrition          # 587b
-        - Yo! GERT                # 588a
-        - Ice Cream CONNIE        # 588b
-        - Ecch BENEDICT           # 589a
-        - Brain LES               # 589b
-        - Little Leak LEN         # 590a
-        - Snot-Ball SAUL          # 590b
-        - FRANK Footer            # 591a
-        - Dog Bites BOYD          # 591b
-        - Extra DEXTER            # 592a
-        - Flabby ABBY             # 592b
-        - Footloose FRED          # 593a
-        - Lucky LEW               # 593b
-        - Tied DI                 # 594a
-        - Knotty LOTTIE           # 594b
-        - MAL Practice            # 595a
-        - Intensive CARRIE        # 595b
-        - Sani KLAUS              # 596a
-        - Sick NICK               # 596b
-        - HARRY Armpits           # 597a
-        - Under ARNIE             # 597b
-        - Vise GUY                # 598a
-        - HUGH Fix-It             # 598b
-        - BERN-Out                # 599a
-        - Dim-Bulb BOB            # 599b
-        - Vendo-MATT              # 600a
-        - DOUG Slug               # 600b
-        - Losin' WADE             # 601a
-        - HY Cholesterol          # 601b
-        - Upside DONNA            # 602a
-        - Two-Fer JUAN            # 602b
-        - MITCH Mitt              # 603a
-        - Foul BILL               # 603b
-        - SANDI Box               # 604a
-        - CAT Litter              # 604b
-        - Windy MINDY             # 605a
-        - Birthday KATE           # 605b
-        - Foul-Towel RAOUL        # 606a
-        - Muddy BUDDY             # 606b
-        - KIT Video               # 607a
-        - HAM Actor               # 607b
-        - Fairy MARY              # 608a
-        - Stinker BELLE           # 608b
-        - Dewy DEWEY              # 609a
-        - Dank FRANK              # 609b
-        - BEAU Constricted        # 610a
-        - Coiled CARL             # 610b
-        - Acid WAYNE              # 611a
-        - Polluted PAUL           # 611b
-        - Shoe LACEY              # 612a
-        - Weird WALKER            # 612b
-        - Bag PIPER               # 613a
-        - Great SCOTT             # 613b
-        - Fillin' DYLAN           # 614a
-        - Cutting JUAN            # 614b
-        - PRESTON Change-O        # 615a
-        - Sleight Of HANS         # 615b
-        - ALEC Gator              # 616a
-        - Croco-DALE              # 616b
-        - CLAUDE Flesh            # 617a
-        - Slasher ASHER           # 617b
-        - Paper DOLLY             # 618a
-        - CATIE Cut-Up            # 618b
-        - V.C. ARNIE              # 619a
-        - Cassette CASEY          # 619b
-        - ADA Bomb                # 620a
-        - Blasted BETTY           # 620b
+        - id: OS15
+          name: Original Series 15
+          year: 1988
+          cards:
+            - id: 581a
+              name: SHEL Game
+            - id: 581b
+              name: 3-Card MONTE
+            - id: 582a
+              name: Take-Out DINAH
+            - id: 582b
+              name: Chow MAME
+            - id: 583a
+              name: LYLE Tile
+            - id: 583b
+              name: HARRY Glyph
+            - id: 584a
+              name: Slimy HYMIE
+            - id: 584b
+              name: Crawlin' ROLLIN
+            - id: 585a
+              name: Picky NICK
+            - id: 585b
+              name: BEULAH Ghoul
+            - id: 586a
+              name: PETER Cheater
+            - id: 586b
+              name: DEAN List
+            - id: 587a
+              name: CORNELIA Flake
+            - id: 587b
+              name: MALA Nutrition
+            - id: 588a
+              name: Yo! GERT
+            - id: 588b
+              name: Ice Cream CONNIE
+            - id: 589a
+              name: Ecch BENEDICT
+            - id: 589b
+              name: Brain LES
+            - id: 590a
+              name: Little Leak LEN
+            - id: 590b
+              name: Snot-Ball SAUL
+            - id: 591a
+              name: FRANK Footer
+            - id: 591b
+              name: Dog Bites BOYD
+            - id: 592a
+              name: Extra DEXTER
+            - id: 592b
+              name: Flabby ABBY
+            - id: 593a
+              name: Footloose FRED
+            - id: 593b
+              name: Lucky LEW
+            - id: 594a
+              name: Tied DI
+            - id: 594b
+              name: Knotty LOTTIE
+            - id: 595a
+              name: MAL Practice
+            - id: 595b
+              name: Intensive CARRIE
+            - id: 596a
+              name: Sani KLAUS
+            - id: 596b
+              name: Sick NICK
+            - id: 597a
+              name: HARRY Armpits
+            - id: 597b
+              name: Under ARNIE
+            - id: 598a
+              name: Vise GUY
+            - id: 598b
+              name: HUGH Fix-It
+            - id: 599a
+              name: BERN-Out
+            - id: 599b
+              name: Dim-Bulb BOB
+            - id: 600a
+              name: Vendo-MATT
+            - id: 600b
+              name: DOUG Slug
+            - id: 601a
+              name: Losin' WADE
+            - id: 601b
+              name: HY Cholesterol
+            - id: 602a
+              name: Upside DONNA
+            - id: 602b
+              name: Two-Fer JUAN
+            - id: 603a
+              name: MITCH Mitt
+            - id: 603b
+              name: Foul BILL
+            - id: 604a
+              name: SANDI Box
+            - id: 604b
+              name: CAT Litter
+            - id: 605a
+              name: Windy MINDY
+            - id: 605b
+              name: Birthday KATE
+            - id: 606a
+              name: Foul-Towel RAOUL
+            - id: 606b
+              name: Muddy BUDDY
+            - id: 607a
+              name: KIT Video
+            - id: 607b
+              name: HAM Actor
+            - id: 608a
+              name: Fairy MARY
+            - id: 608b
+              name: Stinker BELLE
+            - id: 609a
+              name: Dewy DEWEY
+            - id: 609b
+              name: Dank FRANK
+            - id: 610a
+              name: BEAU Constricted
+            - id: 610b
+              name: Coiled CARL
+            - id: 611a
+              name: Acid WAYNE
+            - id: 611b
+              name: Polluted PAUL
+            - id: 612a
+              name: Shoe LACEY
+            - id: 612b
+              name: Weird WALKER
+            - id: 613a
+              name: Bag PIPER
+            - id: 613b
+              name: Great SCOTT
+            - id: 614a
+              name: Fillin' DYLAN
+            - id: 614b
+              name: Cutting JUAN
+            - id: 615a
+              name: PRESTON Change-O
+            - id: 615b
+              name: Sleight Of HANS
+            - id: 616a
+              name: ALEC Gator
+            - id: 616b
+              name: Croco-DALE
+            - id: 617a
+              name: CLAUDE Flesh
+            - id: 617b
+              name: Slasher ASHER
+            - id: 618a
+              name: Paper DOLLY
+            - id: 618b
+              name: CATIE Cut-Up
+            - id: 619a
+              name: V.C. ARNIE
+            - id: 619b
+              name: Cassette CASEY
+            - id: 620a
+              name: ADA Bomb
+            - id: 620b
+              name: Blasted BETTY
         #
         # Original Series 16 (1988)
         #
-        - Photo BOOTH             # 621a
-        - VICTOR Picture          # 621b
-        - Neon LEON               # 622a
-        - Blinkin' BLAKE          # 622b
-        - Tattoo DREW             # 623a
-        - Skin-Pic DICK           # 623b
-        - ROD Rodent              # 624a
-        - PAT Rat                 # 624b
-        - Flushed FLOYD           # 625a
-        - Croc O' SID             # 625b
-        - Interracial RACHEL.     # 626a
-        - Stitched STELLA         # 626b
-        - Seafood CELIA           # 627a
-        - Lobster SHELLY          # 627b
-        - Double TEX              # 628a
-        - HOWIE Yowie             # 628b
-        - Bustin' CHESTER         # 629a
-        - Burstin' BURT           # 629b
-        - Stuck-On HUGH           # 630a
-        - Dash Board DENNIS       # 630b
-        - Bone Head ED            # 631a
-        - Missing LINK            # 631b
-        - Vendin' BRENDAN         # 632a
-        - Cheap-Toy LEROY         # 632b
-        - TAYLOR Made             # 633a
-        - JUDD Flood              # 633b
-        - Hungry HENRIETTA        # 634a
-        - Stuffin' STEFAN         # 634b
-        - Freight DWAYNE          # 635a
-        - Loco MOE                # 635b
-        - Slammed SLOAN           # 636a
-        - KEITH Out               # 636b
-        - Raisin' ELLA            # 637a
-        - Grape VI                # 637b
-        - Sprayed Ray             # 638a
-        - RHODA Roach             # 638b
-        - GUY Pie                 # 639a
-        - Pepperoni TONI          # 639b
-        - Finger-Paintin' FIFI    # 640a
-        - LIBBY Stick             # 640b
-        - Ticked-Off TUCKER .     # 641a
-        - Quittin' Time QUINN     # 641b
-        - Scrawled SAUL           # 642a
-        - Bad ART                 # 642b
-        - Twin BILL               # 643a
-        - RUSS Plus               # 643b
-        - NOAH Parking            # 644a
-        - PETER Meter             # 644b
-        - Busy BEA                # 645a
-        - Handy MANDY             # 645b
-        - Jarred JARED            # 646a
-        - LOU Cue                 # 646b
-        - Leggy PEGGY             # 647a
-        - Obscene KATHLEEN        # 647b
-        - Sushi SUSIE             # 648a
-        - Terrible TERI           # 648b
-        - Throat PAYNE            # 649a
-        - Punchin' JODY           # 649b
-        - Dead FLORA              # 650a
-        - Fetid FERN              # 650b
-        - Dunkin' DUNCAN          # 651a
-        - WILL Hung               # 651b
-        - Forged GEORGE           # 652a
-        - Glowin' OWEN            # 652b
-        - Burn-A MYRNA            # 653a
-        - MINNIE Happy Returns    # 653b
-        - KYLE Tile               # 654a
-        - Bathroom TYLER          # 654b
-        - REX Town                # 655a
-        - DINO Attacks            # 655b
-        - Little Barfin' FANNY    # 656a
-        - BESS Mess               # 656b
-        - Crawly RALEIGH          # 657a
-        - Bugged BOYD             # 657b
-        - Trim JIM                # 658a
-        - Groomin' TRUMAN         # 658b
-        - Idol IRA                # 659a
-        - KEN Tiki                # 659b
-        - TAD ill                 # 660a
-        - Spillin' GUS            # 660b
-        - Stoked STU              # 661a
-        - Toilet Wave DAVE        # 661b
-        - VICTOR Picture          # 621b
-        - Neon LEON               # 622a
-        - Blinkin' BLAKE          # 622b
-        - Tattoo DREW             # 623a
-        - Skin-Pic DICK           # 623b
-        - ROD Rodent              # 624a
-        - PAT Rat                 # 624b
-        - Flushed FLOYD           # 625a
-        - Croc O' SID             # 625b
-        - Interracial RACHEL.     # 626a
-        - Stitched STELLA         # 626b
-        - Seafood CELIA           # 627a
-        - Lobster SHELLY          # 627b
-        - Double TEX              # 628a
-        - HOWIE Yowie             # 628b
-        - Bustin' CHESTER         # 629a
-        - Burstin' BURT           # 629b
-        - Stuck-On HUGH           # 630a
-        - Dash Board DENNIS       # 630b
-        - Bone Head ED            # 631a
-        - Missing LINK            # 631b
-        - Vendin' BRENDAN         # 632a
-        - Cheap-Toy LEROY         # 632b
-        - TAYLOR Made             # 633a
-        - JUDD Flood              # 633b
-        - Hungry HENRIETTA        # 634a
-        - Stuffin' STEFAN         # 634b
-        - Freight DWAYNE          # 635a
-        - Loco MOE                # 635b
-        - Slammed SLOAN           # 636a
-        - KEITH Out               # 636b
-        - Raisin' ELLA            # 637a
-        - Grape VI                # 637b
-        - Sprayed Ray             # 638a
-        - RHODA Roach             # 638b
-        - GUY Pie                 # 639a
-        - Pepperoni TONI          # 639b
-        - Finger-Paintin' FIFI    # 640a
-        - LIBBY Stick             # 640b
-        - Ticked-Off TUCKER .     # 641a
-        - Quittin' Time QUINN     # 641b
-        - Scrawled SAUL           # 642a
-        - Bad ART                 # 642b
-        - Twin BILL               # 643a
-        - RUSS Plus               # 643b
-        - NOAH Parking            # 644a
-        - PETER Meter             # 644b
-        - Busy BEA                # 645a
-        - Handy MANDY             # 645b
-        - Jarred JARED            # 646a
-        - LOU Cue                 # 646b
-        - Leggy PEGGY             # 647a
-        - Obscene KATHLEEN        # 647b
-        - Sushi SUSIE             # 648a
-        - Terrible TERI           # 648b
-        - Throat PAYNE            # 649a
-        - Punchin' JODY           # 649b
-        - Dead FLORA              # 650a
-        - Fetid FERN              # 650b
-        - Dunkin' DUNCAN          # 651a
-        - WILL Hung               # 651b
-        - Forged GEORGE           # 652a
-        - Glowin' OWEN            # 652b
-        - Burn-A MYRNA            # 653a
-        - MINNIE Happy Returns    # 653b
-        - KYLE Tile               # 654a
-        - Bathroom TYLER          # 654b
-        - REX Town                # 655a
-        - DINO Attacks            # 655b
-        - Little Barfin' FANNY    # 656a
-        - BESS Mess               # 656b
-        - Crawly RALEIGH          # 657a
-        - Bugged BOYD             # 657b
-        - Trim JIM                # 658a
-        - Groomin' TRUMAN         # 658b
-        - Idol IRA                # 659a
-        - KEN Tiki                # 659b
-        - TAD ill                 # 660a
-        - Spillin' GUS            # 660b
-        - Stoked STU              # 661a
-        - Toilet Wave DAVE        # 661b
+        - id: OS16
+          name: Original Series 16
+          year: 1988
+          cards:
+            - id: 621a
+              name: Photo BOOTH
+            - id: 621b
+              name: VICTOR Picture
+            - id: 622a
+              name: Neon LEON
+            - id: 622b
+              name: Blinkin' BLAKE
+            - id: 623a
+              name: Tattoo DREW
+            - id: 623b
+              name: Skin-Pic DICK
+            - id: 624a
+              name: ROD Rodent
+            - id: 624b
+              name: PAT Rat
+            - id: 625a
+              name: Flushed FLOYD
+            - id: 625b
+              name: Croc O' SID
+            - id: 626a
+              name: Interracial RACHEL.
+            - id: 626b
+              name: Stitched STELLA
+            - id: 627a
+              name: Seafood CELIA
+            - id: 627b
+              name: Lobster SHELLY
+            - id: 628a
+              name: Double TEX
+            - id: 628b
+              name: HOWIE Yowie
+            - id: 629a
+              name: Bustin' CHESTER
+            - id: 629b
+              name: Burstin' BURT
+            - id: 630a
+              name: Stuck-On HUGH
+            - id: 630b
+              name: Dash Board DENNIS
+            - id: 631a
+              name: Bone Head ED
+            - id: 631b
+              name: Missing LINK
+            - id: 632a
+              name: Vendin' BRENDAN
+            - id: 632b
+              name: Cheap-Toy LEROY
+            - id: 633a
+              name: TAYLOR Made
+            - id: 633b
+              name: JUDD Flood
+            - id: 634a
+              name: Hungry HENRIETTA
+            - id: 634b
+              name: Stuffin' STEFAN
+            - id: 635a
+              name: Freight DWAYNE
+            - id: 635b
+              name: Loco MOE
+            - id: 636a
+              name: Slammed SLOAN
+            - id: 636b
+              name: KEITH Out
+            - id: 637a
+              name: Raisin' ELLA
+            - id: 637b
+              name: Grape VI
+            - id: 638a
+              name: Sprayed Ray
+            - id: 638b
+              name: RHODA Roach
+            - id: 639a
+              name: GUY Pie
+            - id: 639b
+              name: Pepperoni TONI
+            - id: 640a
+              name: Finger-Paintin' FIFI
+            - id: 640b
+              name: LIBBY Stick
+            - id: 641a
+              name: Ticked-Off TUCKER
+            - id: 641b
+              name: Quittin' Time QUINN
+            - id: 642a
+              name: Scrawled SAUL
+            - id: 642b
+              name: Bad ART
+            - id: 643a
+              name: Twin BILL
+            - id: 643b
+              name: RUSS Plus
+            - id: 644a
+              name: NOAH Parking
+            - id: 644b
+              name: PETER Meter
+            - id: 645a
+              name: Busy BEA
+            - id: 645b
+              name: Handy MANDY
+            - id: 646a
+              name: Jarred JARED
+            - id: 646b
+              name: LOU Cue
+            - id: 647a
+              name: Leggy PEGGY
+            - id: 647b
+              name: Obscene KATHLEEN
+            - id: 648a
+              name: Sushi SUSIE
+            - id: 648b
+              name: Terrible TERI
+            - id: 649a
+              name: Throat PAYNE
+            - id: 649b
+              name: Punchin' JODY
+            - id: 650a
+              name: Dead FLORA
+            - id: 650b
+              name: Fetid FERN
+            - id: 651a
+              name: Dunkin' DUNCAN
+            - id: 651b
+              name: WILL Hung
+            - id: 652a
+              name: Forged GEORGE
+            - id: 652b
+              name: Glowin' OWEN
+            - id: 653a
+              name: Burn-A MYRNA
+            - id: 653b
+              name: MINNIE Happy Returns
+            - id: 654a
+              name: KYLE Tile
+            - id: 654b
+              name: Bathroom TYLER
+            - id: 655a
+              name: REX Town
+            - id: 655b
+              name: DINO Attacks
+            - id: 656a
+              name: Little Barfin' FANNY
+            - id: 656b
+              name: BESS Mess
+            - id: 657a
+              name: Crawly RALEIGH
+            - id: 657b
+              name: Bugged BOYD
+            - id: 658a
+              name: Trim JIM
+            - id: 658b
+              name: Groomin' TRUMAN
+            - id: 659a
+              name: Idol IRA
+            - id: 659b
+              name: KEN Tiki
+            - id: 660a
+              name: TAD ill
+            - id: 660b
+              name: Spillin' GUS
+            - id: 661a
+              name: Stoked STU
+            - id: 661b
+              name: Toilet Wave DAVE

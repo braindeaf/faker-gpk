@@ -18,6 +18,21 @@ Generate a name of our favourite Garbage Pail Kids
 
 ```ruby
 Faker::TradingCards::GarbagePailKids.name # => 'Nasty NICK'
+Faker::TradingCards::GarbagePailKids.name(from: 'OS1') # => 'Graffiti PETEY'
+```
+
+Generate a unique card id
+
+```ruby
+Faker::TradingCards::GarbagePailKids.number # => '1a'
+Faker::TradingCards::GarbagePailKids.number(from: 'OS2') # => '46a'
+```
+
+Generate a card (id and number pair)
+
+```ruby
+Faker::TradingCards::GarbagePailKids.card #=> {id: "385b", name: "Chuckin' CHARLIE"}
+Faker::TradingCards::GarbagePailKids.card(from: 'OS3') #=> {id: "96a", name: "Distorted DOT"}
 ```
 
 ## Development

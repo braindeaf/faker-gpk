@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    faker-gpk (0.1.0)
+    faker-gpk (0.1.1)
       faker (~> 3.0)
 
 GEM
